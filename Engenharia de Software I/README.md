@@ -4,7 +4,7 @@ Engenheiros de Software precisam garantir que o produto seja atual e apelativo, 
 
 Within Google, we sometimes say, “Software engineering is programming integrated over time.” Programming is certainly a significant part of software engineering: after all, programming is how you generate new software in the first place. If you accept this distinction, it also becomes clear that we might need to delineate between programming tasks (development) and software engineering tasks (development, modification, maintenance). The addition of time adds an important new dimension to programming. Cubes aren’t squares, distance isn’t velocity. Software engineering isn’t programming.
 
-Pode-se dizer que engenharia de software é a programação associada ao tempo, ainda assim a programação é parte essencial da engenharia de software porque no fim das contas trata-se de desenvolver a aplicação em si.
+Pode-se dizer que engenharia de software é a programação associada ao tempo, ainda assim a programação é parte essencial da engenharia de software porque no fim das contas trata-se de desenvolver a aplicação em si. A engenharia de software considera o tempo aplicado no produto e as necessidades de manutenção e atualização durante esse processo. 
 
 
 
