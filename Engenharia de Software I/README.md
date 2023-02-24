@@ -10,11 +10,13 @@ Pode-se dizer que engenharia de software é a programação associada ao tempo, 
 
 # 2 - O que são Requisitos?
 
-
+Os requisitos são os pontos que vão ditar o desenvolvimento do software e o processo para criá-los e defini-los deve ser colaborativo, levando em consideração os feedbacks dos usuários para refinar a aplicação. Por essa razão torna-se impossível descobrir todos logo no início do projeto.
 
 2.1 - Requisitos Funcionais:
 
+Os requisitos funcionais, como o nome sugere, são aqueles que definirão as funcionalidades da aplicação, ou seja, o que ela será capaz de realizar. Podemos citar como exemplos a própria análise e manipulação dos dados, cadastro e login de usuários, ou até mesmo a emissão de uma nota fiscal.
+
 2.2 - Requisitos não Funcionais:
 
-
+Os requisitos não funcionais por sua vez, não se relacionam com as funcionalidades em si, mas ainda assim fazem parte do escopo final do produto definindo seus atributos de qualidade. Como exemplos nós temos as questões de segurança, interface do usuário e a manutenção.
 
