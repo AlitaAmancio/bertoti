@@ -26,3 +26,8 @@ Os requisitos não funcionais por sua vez, não se relacionam com as funcionalid
 
 O Engenheiro de Software tem sempre em mente a questão dos trade-offs, aqui nos requisitos não funcionais podemos pensar na questão de performance X curva de aprendizado. Os funcionários de determinada empresa podem ter maior dificuldade em se adaptar a um programa mais robusto, por outro lado, uma aplicação fácil de ser aprendida pode não possuir todas as funcionalidades cobertas por um software mais complexo. Outro exemplo que pode ser citado nessa categoria seria a escolha do banco de dados, bancos SQL e NoSQL oferecem diferente vantagens e desvantagens, podendo ser mais ou menos adequados dependendo das circunstâncias.   
 
+# 3 - Class UML.
+
+Segue abaixo um modelo inicial de um restaurante pensado no formato de Class UML.
+![restaurante](https://user-images.githubusercontent.com/89790349/225893949-cf776bd9-ffc1-497c-81fe-9dc46bbc265a.png)
+
