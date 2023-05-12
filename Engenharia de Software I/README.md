@@ -28,6 +28,7 @@ O Engenheiro de Software tem sempre em mente a questão dos trade-offs, aqui nos
 
 # 3 - Class UML.
 
-Segue abaixo um modelo inicial de um restaurante pensado no formato de Class UML.
-![restaurante](https://user-images.githubusercontent.com/89790349/225893949-cf776bd9-ffc1-497c-81fe-9dc46bbc265a.png)
+Segue abaixo o modelo de um bar pensado no formato de Class UML. Essa aplicação simples conta com um menu inicial que permite ao usuário selecionar entre duas opções para verificar o atendimento, uma opção geral e outra puxando pelo Id da mesa atendida. A aplicação conta também com métodos que calculam o preço total das bebidas dividido pelo número de clientes na mesa e encerra calculando o valor da gorgeta recebida pelo funcionário.
+
+![DiagramaUML](https://github.com/AlitaAmancio/bertoti/assets/89790349/e7e17b06-af03-49f4-826a-418f007de43d)
 
