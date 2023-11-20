@@ -9,7 +9,7 @@ As Heurísticas de Nielsen representam um conjunto fundamental de diretrizes de 
 ## Indíce
 As dez heurísticas de usabilidade de Jakob Nielsen são:
 
-1. **[Visibilidade do Estado do Sistema:](#sectionUm)** Manter os usuários informados sobre o que está acontecendo, fornecendo feedback adequado em tempo real sobre suas ações.
+1. **[Visibilidade do Estado do Sistema:](#sectionOne)** Manter os usuários informados sobre o que está acontecendo, fornecendo feedback adequado em tempo real sobre suas ações.
 
 2. **[Correspondência entre o Sistema e o Mundo Real:](#correspondência-entre-o-sistema-e-o-mundo-real)** Utilizar linguagem, termos e conceitos familiares ao usuário, garantindo que a interface reflita o mundo real.
 
@@ -35,7 +35,7 @@ Por fim:
 **[O que aprendendi com as 10 Heurísticas de Nielsen](#o-que-aprendendi-com-as-10-heurísticas-de-nielsen)**
 #
 
-### 1 — Visibilidade do Status do sistema
+### <a name=“sectionOne”><a/>1 — Visibilidade do Status do sistema
 A heurística "Visibilidade do Estado do Sistema" desempenha um papel crucial na otimização da experiência do usuário em interfaces digitais. Ao fornecer feedbacks instantâneos dentro de um prazo razoável, essa heurística assegura que os usuários sejam informados sobre o que está acontecendo em tempo real, orientando-os sobre o status das ações realizadas. Essa abordagem, exemplificada pela indicação luminosa de um elevador após pressionar o botão, é essencial para construir a confiança do usuário no sistema, garantindo que ele se sinta no controle das interações realizadas em produtos digitais.
 
 **Exemplos Práticos de Aplicação da Heurística "Visibilidade do Estado do Sistema" em Interfaces Digitais:**
