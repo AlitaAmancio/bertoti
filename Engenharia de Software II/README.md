@@ -9,7 +9,7 @@ As Heurísticas de Nielsen representam um conjunto fundamental de diretrizes de 
 ## Indíce
 As dez heurísticas de usabilidade de Jakob Nielsen são:
 
-1. **[Visibilidade do Estado do Sistema:](#sectionOne)** Manter os usuários informados sobre o que está acontecendo, fornecendo feedback adequado em tempo real sobre suas ações.
+1. **[Visibilidade do Estado do Sistema:](#visibilidade-do-estado-do-sistema)** Manter os usuários informados sobre o que está acontecendo, fornecendo feedback adequado em tempo real sobre suas ações.
 
 2. **[Correspondência entre o Sistema e o Mundo Real:](#correspondência-entre-o-sistema-e-o-mundo-real)** Utilizar linguagem, termos e conceitos familiares ao usuário, garantindo que a interface reflita o mundo real.
 
@@ -35,8 +35,8 @@ Por fim:
 **[O que aprendendi com as 10 Heurísticas de Nielsen](#o-que-aprendendi-com-as-10-heurísticas-de-nielsen)**
 #
 
-### <a name=“sectionOne”><a/>1 — Visibilidade do Status do sistema
-A heurística "Visibilidade do Estado do Sistema" desempenha um papel crucial na otimização da experiência do usuário em interfaces digitais. Ao fornecer feedbacks instantâneos dentro de um prazo razoável, essa heurística assegura que os usuários sejam informados sobre o que está acontecendo em tempo real, orientando-os sobre o status das ações realizadas. Essa abordagem, exemplificada pela indicação luminosa de um elevador após pressionar o botão, é essencial para construir a confiança do usuário no sistema, garantindo que ele se sinta no controle das interações realizadas em produtos digitais.
+### Visibilidade do Estado do sistema
+A **primeira heurística**, "Visibilidade do Estado do Sistema", desempenha um papel crucial na otimização da experiência do usuário em interfaces digitais. Ao fornecer feedbacks instantâneos dentro de um prazo razoável, essa heurística assegura que os usuários sejam informados sobre o que está acontecendo em tempo real, orientando-os sobre o status das ações realizadas. Essa abordagem, exemplificada pela indicação luminosa de um elevador após pressionar o botão, é essencial para construir a confiança do usuário no sistema, garantindo que ele se sinta no controle das interações realizadas em produtos digitais.
 
 **Exemplos Práticos de Aplicação da Heurística "Visibilidade do Estado do Sistema" em Interfaces Digitais:**
 
@@ -58,7 +58,7 @@ Esta heurística busca assegurar transparência e confiança, proporcionando fee
 
 #
 ### Correspondência entre o Sistema e o Mundo Real
-A segunda heurística, "Correspondência entre o Sistema e o Mundo Real", destaca a importância de o sistema adotar a mesma linguagem utilizada pelo usuário em seu cotidiano. Isso envolve o uso de palavras, frases, imagens e conceitos familiares, bem como a incorporação de ícones que representem ações de maneira intuitiva. Por exemplo, a presença de um ícone de lixeira para representar a ação de excluir e o de uma lupa para buscar facilita a compreensão do usuário, proporcionando uma interação mais intuitiva com o produto digital.
+A **segunda heurística**, "Correspondência entre o Sistema e o Mundo Real", destaca a importância de o sistema adotar a mesma linguagem utilizada pelo usuário em seu cotidiano. Isso envolve o uso de palavras, frases, imagens e conceitos familiares, bem como a incorporação de ícones que representem ações de maneira intuitiva. Por exemplo, a presença de um ícone de lixeira para representar a ação de excluir e o de uma lupa para buscar facilita a compreensão do usuário, proporcionando uma interação mais intuitiva com o produto digital.
 
 **Exemplos Práticos de Aplicação da Heurística "Correspondência entre o Sistema e o Mundo Real" em Interfaces Digitais:**
 
@@ -78,8 +78,8 @@ O Google Maps apresenta um desafio na representação de diversos locais por mei
 ![h2-1](https://github.com/AlitaAmancio/bertoti/assets/89790349/4b37a5ca-a463-4463-a9f2-950718b5c907)
 
 #
-### 3 — Controle e Liberdade do Usuário
-A terceira heurística, "Controle e Liberdade do Usuário", enfatiza a importância de oferecer aos usuários a liberdade para realizar ações desejadas, mas também a necessidade de uma "saída de emergência" claramente sinalizada em casos de ações por engano. Especialmente em interfaces mobile, onde cliques acidentais são mais comuns, a presença de uma opção de retorno intuitiva, como o botão "voltar" nos navegadores de internet, proporciona aos usuários uma maneira fácil de corrigir ou sair de estados indesejados, sem a necessidade de percorrer novamente fluxos extensos.
+### Controle e Liberdade do Usuário
+A **terceira heurística**, "Controle e Liberdade do Usuário", enfatiza a importância de oferecer aos usuários a liberdade para realizar ações desejadas, mas também a necessidade de uma "saída de emergência" claramente sinalizada em casos de ações por engano. Especialmente em interfaces mobile, onde cliques acidentais são mais comuns, a presença de uma opção de retorno intuitiva, como o botão "voltar" nos navegadores de internet, proporciona aos usuários uma maneira fácil de corrigir ou sair de estados indesejados, sem a necessidade de percorrer novamente fluxos extensos.
 
 **Exemplos de Aplicação da Heurística "Controle e Liberdade do Usuário" em Interfaces Digitais:**
 
@@ -97,8 +97,8 @@ A importância da heurística "Controle e Liberdade do Usuário" é evidenciada 
 ![h3](https://github.com/AlitaAmancio/bertoti/assets/89790349/c4e4b24b-3b59-4288-b2dc-d163cff17269)
 
 #
-### 4 — Consistência e Padrões
-A quarta heurística, "Consistência e Padrões", destaca a importância de manter uma interface previsível e fácil de aprender. Isso é alcançado ao assegurar que palavras, situações e ações similares possuam significados consistentes, promovendo uma experiência coesa para o usuário. A consistência se reflete na manutenção de padrões estéticos, interativos e informativos ao longo da interface. Ao aderir a padrões já estabelecidos em plataformas semelhantes, o sistema reduz a carga cognitiva do usuário, tornando as ações mais intuitivas e evitando frustrações decorrentes de mudanças abruptas. Essa abordagem contribui para uma usabilidade eficaz e uma experiência positiva do usuário.
+### Consistência e Padrões
+A **quarta heurística**, "Consistência e Padrões", destaca a importância de manter uma interface previsível e fácil de aprender. Isso é alcançado ao assegurar que palavras, situações e ações similares possuam significados consistentes, promovendo uma experiência coesa para o usuário. A consistência se reflete na manutenção de padrões estéticos, interativos e informativos ao longo da interface. Ao aderir a padrões já estabelecidos em plataformas semelhantes, o sistema reduz a carga cognitiva do usuário, tornando as ações mais intuitivas e evitando frustrações decorrentes de mudanças abruptas. Essa abordagem contribui para uma usabilidade eficaz e uma experiência positiva do usuário.
 
 **Exemplos de Aplicação da Heurística "Consistência e Padrões" em Interfaces Digitais:**
 
@@ -116,8 +116,8 @@ A importância da heurística "Consistência e Padrões" destaca-se na manutenç
 ![h4](https://github.com/AlitaAmancio/bertoti/assets/89790349/fd3525b2-229a-46bb-9d7c-5cc1f7c71e04)
 
 #
-### 5 — Prevenção de Erros
-A quinta heurística, "Prevenção de Erros", concentra-se na criação de uma plataforma que proativamente evita problemas, eliminando condições propensas a erros. Isso se manifesta através de sinalizações inteligentes, como alertar o usuário quando uma tarefa não foi concluída e ele tenta sair da página, ou oferecendo opções de confirmação antes de finalizar uma ação. O estudo detalhado da navegação do usuário permite antecipar e mapear possíveis erros, começando pelos que podem causar danos sérios e progredindo para os que podem gerar confusão e frustração. Essa abordagem não apenas economiza o tempo do usuário, reduzindo a necessidade de suporte, mas também fortalece a confiança dele na plataforma, contribuindo para uma experiência mais confiável e satisfatória.
+### Prevenção de Erros
+A **quinta heurística**, "Prevenção de Erros", concentra-se na criação de uma plataforma que proativamente evita problemas, eliminando condições propensas a erros. Isso se manifesta através de sinalizações inteligentes, como alertar o usuário quando uma tarefa não foi concluída e ele tenta sair da página, ou oferecendo opções de confirmação antes de finalizar uma ação. O estudo detalhado da navegação do usuário permite antecipar e mapear possíveis erros, começando pelos que podem causar danos sérios e progredindo para os que podem gerar confusão e frustração. Essa abordagem não apenas economiza o tempo do usuário, reduzindo a necessidade de suporte, mas também fortalece a confiança dele na plataforma, contribuindo para uma experiência mais confiável e satisfatória.
 
 **Exemplos de Aplicação da Heurística "Prevenção de Erros" em Interfaces Digitais:**
 
@@ -135,8 +135,8 @@ Esses exemplos ilustram como a heurística "Prevenção de Erros" é aplicada em
 ![h5](https://github.com/AlitaAmancio/bertoti/assets/89790349/e6e8a85a-15f2-4233-9091-72dc273dd238)
 
 #
-### 6 — Reconhecimento ao Invés de Lembrança
-A sexta heurística, "Reconhecimento ao Invés de Lembrança", destaca a importância de minimizar a carga cognitiva do usuário, tornando objetos, ações e opções visíveis e facilmente identificáveis. Essa abordagem visa proporcionar pistas no contexto que auxiliem na navegação, permitindo que o usuário reconheça padrões em vez de depender da memorização. Ao manter elementos importantes visíveis, o cérebro percebe ações similares e reconhece padrões, simplificando a interação e reduzindo a necessidade de lembrar informações "de cabeça". Essa heurística contribui para uma experiência do usuário mais fluida e intuitiva, aliviando a carga cognitiva e melhorando a eficácia da interação com a interface digital.
+### Reconhecimento ao Invés de Lembrança
+A **sexta heurística**, "Reconhecimento ao Invés de Lembrança", destaca a importância de minimizar a carga cognitiva do usuário, tornando objetos, ações e opções visíveis e facilmente identificáveis. Essa abordagem visa proporcionar pistas no contexto que auxiliem na navegação, permitindo que o usuário reconheça padrões em vez de depender da memorização. Ao manter elementos importantes visíveis, o cérebro percebe ações similares e reconhece padrões, simplificando a interação e reduzindo a necessidade de lembrar informações "de cabeça". Essa heurística contribui para uma experiência do usuário mais fluida e intuitiva, aliviando a carga cognitiva e melhorando a eficácia da interação com a interface digital.
 
 **Exemplos de Aplicação da Heurística "Reconhecimento ao Invés de Lembrança" em Interfaces Digitais:**
 
@@ -154,8 +154,8 @@ Esses exemplos ilustram como a heurística "Reconhecimento ao Invés de Lembran�
 ![h6](https://github.com/AlitaAmancio/bertoti/assets/89790349/cac3eb4f-cb9c-4d41-b688-c486dc61469a)
 
 #
-### 7 — Flexibilidade e Eficiência de Uso
-A sétima heurística, "Flexibilidade e Eficiência de Uso", destaca a importância de uma interface que atenda tanto às necessidades de usuários leigos quanto experientes. Inicialmente, os usuários leigos requerem informações detalhadas para realizar tarefas, mas à medida que se familiarizam, a interface deve permitir uma transição para interações mais rápidas. Essa flexibilidade envolve a capacidade de adaptar ações frequentes de acordo com o nível de experiência do usuário, fornecendo facilitadores que aceleram a interação. Dessa forma, o sistema atende a uma ampla gama de usuários, promovendo eficiência para os experientes e suporte detalhado para os iniciantes, criando uma experiência adaptativa e inclusiva.
+### Flexibilidade e Eficiência de Uso
+A **sétima heurística**, "Flexibilidade e Eficiência de Uso", destaca a importância de uma interface que atenda tanto às necessidades de usuários leigos quanto experientes. Inicialmente, os usuários leigos requerem informações detalhadas para realizar tarefas, mas à medida que se familiarizam, a interface deve permitir uma transição para interações mais rápidas. Essa flexibilidade envolve a capacidade de adaptar ações frequentes de acordo com o nível de experiência do usuário, fornecendo facilitadores que aceleram a interação. Dessa forma, o sistema atende a uma ampla gama de usuários, promovendo eficiência para os experientes e suporte detalhado para os iniciantes, criando uma experiência adaptativa e inclusiva.
 
 **Exemplos de Aplicação da Heurística "Flexibilidade e Eficiência de Uso" em Interfaces Digitais:**
 
@@ -173,8 +173,8 @@ Esses exemplos destacam a aplicação efetiva da heurística "Flexibilidade e Ef
 ![h7](https://github.com/AlitaAmancio/bertoti/assets/89790349/22c03689-4da7-4f58-862d-f7f95eb2ac4c)
 
 #
-### 8 — Design Estético e Minimalista
-A oitava heurística, "Design Estético e Minimalista", enfatiza a importância de manter o design da interface simples e direto. Quanto maior a quantidade de informações apresentadas, maior a probabilidade de sobrecarregar o usuário, tornando a análise e a tomada de decisões demoradas. Nesse contexto, o design minimalista prioriza a essência, destacando informações cruciais e relegando elementos secundários, como menus e abas, para segundo plano. Essa abordagem significa manter a interface focada no que é essencial, evitando recursos extras que possam comprometer a visibilidade dos elementos relevantes. Ao eliminar informações irrelevantes, o design minimalista reduz o ruído na interface, garantindo uma entrega eficaz da mensagem principal e proporcionando uma experiência mais intuitiva e eficiente para o usuário.
+### Design Estético e Minimalista
+A **oitava heurística**, "Design Estético e Minimalista", enfatiza a importância de manter o design da interface simples e direto. Quanto maior a quantidade de informações apresentadas, maior a probabilidade de sobrecarregar o usuário, tornando a análise e a tomada de decisões demoradas. Nesse contexto, o design minimalista prioriza a essência, destacando informações cruciais e relegando elementos secundários, como menus e abas, para segundo plano. Essa abordagem significa manter a interface focada no que é essencial, evitando recursos extras que possam comprometer a visibilidade dos elementos relevantes. Ao eliminar informações irrelevantes, o design minimalista reduz o ruído na interface, garantindo uma entrega eficaz da mensagem principal e proporcionando uma experiência mais intuitiva e eficiente para o usuário.
 
 **Exemplos de Aplicação da Heurística "Design Estético e Minimalista" em Interfaces Digitais:**
 
@@ -192,9 +192,9 @@ A heurística "Design Estético e Minimalista" é vital para o sucesso de interf
 ![h8](https://github.com/AlitaAmancio/bertoti/assets/89790349/00563650-a17a-4933-847a-011e80a34093)
 
 #
-### 9 — Reconhecimento, Diagnóstico e Recuperação de Erros
+### Reconhecimento, Diagnóstico e Recuperação de Erros
 
-A nona heurística, "Reconhecimento, Diagnóstico e Recuperação de Erros", destaca a importância de proporcionar aos usuários a capacidade de reconhecer, diagnosticar e recuperar-se de erros de maneira eficaz. Isso é alcançado através de mensagens de erro claras e objetivas, expressas em linguagem simples e diretamente relacionadas à ação que causou o problema. Ao sinalizar os erros de forma inequívoca, sem o uso de códigos complexos, as mensagens precisam indicar com precisão o problema ocorrido e oferecer sugestões construtivas para uma alternativa ou solução. Essa abordagem visa melhorar a experiência do usuário, permitindo uma interação mais suave e facilitando a resolução de contratempos de forma autônoma.
+A **nona heurística**, "Reconhecimento, Diagnóstico e Recuperação de Erros", destaca a importância de proporcionar aos usuários a capacidade de reconhecer, diagnosticar e recuperar-se de erros de maneira eficaz. Isso é alcançado através de mensagens de erro claras e objetivas, expressas em linguagem simples e diretamente relacionadas à ação que causou o problema. Ao sinalizar os erros de forma inequívoca, sem o uso de códigos complexos, as mensagens precisam indicar com precisão o problema ocorrido e oferecer sugestões construtivas para uma alternativa ou solução. Essa abordagem visa melhorar a experiência do usuário, permitindo uma interação mais suave e facilitando a resolução de contratempos de forma autônoma.
 
 **Exemplos Práticos da Heurística "Reconhecimento, Diagnóstico e Recuperação de Erros" em Interfaces Digitais:**
 
@@ -212,8 +212,8 @@ A heurística "Reconhecimento, Diagnóstico e Recuperação de Erros" desempenha
 ![h9](https://github.com/AlitaAmancio/bertoti/assets/89790349/989733b8-2af7-4334-9dae-aa33018799bd)
 
 #
-### 10 — Ajuda e Documentação
-A décima heurística destaca a importância de proporcionar ajuda ao usuário, reconhecendo que, embora áreas de documentação e suporte sejam menos acessadas, sua presença é fundamental, especialmente em interfaces complexas. Oferecer ajuda de maneira proativa, antecipando possíveis dificuldades em etapas específicas, permite que o usuário resolva problemas autonomamente. Essa abordagem visa aprimorar a usabilidade, garantindo que recursos de auxílio estejam disponíveis quando necessário, contribuindo para uma experiência mais fluida e satisfatória.
+### Ajuda e Documentação
+A **décima heurística** destaca a importância de proporcionar ajuda ao usuário, reconhecendo que, embora áreas de documentação e suporte sejam menos acessadas, sua presença é fundamental, especialmente em interfaces complexas. Oferecer ajuda de maneira proativa, antecipando possíveis dificuldades em etapas específicas, permite que o usuário resolva problemas autonomamente. Essa abordagem visa aprimorar a usabilidade, garantindo que recursos de auxílio estejam disponíveis quando necessário, contribuindo para uma experiência mais fluida e satisfatória.
 
 **Exemplos Práticos de Aplicação da Heurística "Ajuda e Documentação" em Interfaces Digitais:**
 
