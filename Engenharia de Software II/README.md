@@ -57,7 +57,7 @@ Esta heurística busca assegurar transparência e confiança, proporcionando fee
 ![h1](https://github.com/AlitaAmancio/bertoti/assets/89790349/719b02c0-1d4b-43ca-b3d3-941cc92623a9)
 
 #
-### 2 — Correspondência entre o Sistema e o Mundo Real
+### Correspondência entre o Sistema e o Mundo Real
 A segunda heurística, "Correspondência entre o Sistema e o Mundo Real", destaca a importância de o sistema adotar a mesma linguagem utilizada pelo usuário em seu cotidiano. Isso envolve o uso de palavras, frases, imagens e conceitos familiares, bem como a incorporação de ícones que representem ações de maneira intuitiva. Por exemplo, a presença de um ícone de lixeira para representar a ação de excluir e o de uma lupa para buscar facilita a compreensão do usuário, proporcionando uma interação mais intuitiva com o produto digital.
 
 **Exemplos Práticos de Aplicação da Heurística "Correspondência entre o Sistema e o Mundo Real" em Interfaces Digitais:**
