@@ -1,5 +1,5 @@
 # Adopt a Book 
-Projeto que conclui a matéria "Linguagem de Programação" do segundo semestre da Fatec SJC.
+Meu primeiro CRUD desenvolvido na matéria Laboratório de Desenvolvimento em Banco de Dados III.
 
 ## Sobre o Desafio
 O desafio proposto foi desenvolver um aplicação web na linguagem Java que possibilitasse ao usuário Criar (CREATE), Buscar (READ), Atualizar (UPDATE) e Deletar (DELETE) informações. Como um desafio pessoal e oportunidade de aprendizado incluí o banco relacional H2, um banco embarcado cujo console pode ser acessado diretamente no browser. 
