@@ -69,6 +69,8 @@ public class BookService {
             Book updatedBookData = bookData.get();
             updatedBookData.setTitle(newBookData.getTitle());
             updatedBookData.setDescription(newBookData.getDescription());
+            updatedBookData.setCoverType(newBookData.getCoverType());
+            updatedBookData.setPublicationDate(newBookData.getPublicationDate());
             if (newBookData.getAuthor() != null) {
                 updatedBookData.setAuthor(newBookData.getAuthor());
             }

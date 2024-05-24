@@ -33,10 +33,6 @@ public class CategoryService {
         }
     }
 
-    public Optional<Category> getCategoryByName(String name) {
-        return categoryInterface.findByNameIgnoreCase(name);
-    }
-
     public Category saveCategory(Category category) {
         return categoryInterface.save(category);
     }

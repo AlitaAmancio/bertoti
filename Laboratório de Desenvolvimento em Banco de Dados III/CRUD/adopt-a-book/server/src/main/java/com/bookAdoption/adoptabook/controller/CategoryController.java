@@ -17,14 +17,17 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+
 
 @RestController
+@RequestMapping("/category")
 public class CategoryController {
 
     @Autowired
     private CategoryService categoryService;
 
-    @GetMapping("/getAllCategories")
+    @GetMapping("/list")
     public ResponseEntity<List<Category>> getAllCategories() {
         try {
             List<Category> categories = categoryService.getAllCategories();
@@ -38,7 +41,7 @@ public class CategoryController {
         }
     }
 
-    @GetMapping("/getCategoryById/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Category> getCategoryById(@PathVariable Long id) {
         try {
             Optional<Category> categoryData = categoryService.getCategoryById(id);
@@ -49,7 +52,7 @@ public class CategoryController {
         }
     }
 
-    @GetMapping("/getCategoriesByName/{name}")
+    @GetMapping("/list/{name}")
     public ResponseEntity<List<Category>> getCategoriesByName(@PathVariable String name) {
         try {
             List<Category> categoriesList = categoryService.getCategoriesByName(name);
@@ -63,21 +66,7 @@ public class CategoryController {
         }
     }
 
-    @GetMapping("/getCategoryByName/{name}")
-    public ResponseEntity<Category> getCategoryByName(@PathVariable String name) {
-        try {
-            Optional<Category> categoryData = categoryService.getCategoryByName(name);
-            if (categoryData.isPresent()) {
-                return new ResponseEntity<>(categoryData.get(), HttpStatus.OK);
-            } else {
-                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-            }
-        } catch (Exception e) {
-            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
-        }
-    }
-
-    @PostMapping("/saveCategory")
+    @PostMapping("/save")
     public ResponseEntity<Category> saveCategory(@RequestBody Category category) {
         try {
             Category categoryObject = categoryService.saveCategory(category);
@@ -87,7 +76,7 @@ public class CategoryController {
         }
     }
 
-    @PutMapping("/updateCategoryById/{id}")
+    @PutMapping("/update/{id}")
     public ResponseEntity<Category> updateCategoryById(@PathVariable Long id, @RequestBody Category newCategoryData) {
         try {
             Category updatedCategory = categoryService.updateCategoryById(id, newCategoryData);
@@ -98,7 +87,7 @@ public class CategoryController {
         }
     }
 
-    @DeleteMapping("/deleteCategoryById/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<HttpStatus> deleteCategoryById(@PathVariable Long id) {
         try {
             categoryService.deleteCategoryById(id);

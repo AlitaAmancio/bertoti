@@ -1,5 +1,6 @@
 package com.bookAdoption.adoptabook.entity;
 
+import java.util.Date;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -16,6 +17,8 @@ public class Author {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
+    private String biography;
+    private Date birthdate;
     @JsonIgnore
     @ManyToMany(mappedBy = "author")
     private List<Book> books;
@@ -25,9 +28,11 @@ public class Author {
     }
 
     // Constructor com todos os campos
-    public Author(Long id, String name) {
+    public Author(Long id, String name, String biography, Date birthdate) {
         this.id = id;
         this.name = name;
+        this.biography = biography;
+        this.birthdate = birthdate;
     }
 
     public Long getId() {
@@ -44,6 +49,23 @@ public class Author {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getBiography() {
+        return biography;
+    }
+
+    public void setBiography(String biography) {
+        this.biography = biography;
+    }
+    
+
+    public Date getBirthdate() {
+        return birthdate;
+    }
+
+    public void setBirthdate(Date birthdate) {
+        this.birthdate = birthdate;
     }
 
     public List<Book> getBooks() {

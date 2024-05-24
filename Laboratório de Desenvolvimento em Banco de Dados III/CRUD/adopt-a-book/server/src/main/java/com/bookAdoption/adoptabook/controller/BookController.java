@@ -17,14 +17,17 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
 
 @RestController
+@RequestMapping("/book")
 public class BookController {
 
     @Autowired
     private BookService bookService;
 
-    @GetMapping("/getAllBooks")
+    @GetMapping("/list")
     public ResponseEntity<List<Book>> getAllBooks() {
         try {
             List<Book> books = bookService.getAllBooks();
@@ -40,7 +43,7 @@ public class BookController {
         }
     }
 
-    @GetMapping("/getBookById/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Book> getBookById(@PathVariable Long id) {
         try {
             Optional<Book> bookData = bookService.getBookById(id);
@@ -54,7 +57,7 @@ public class BookController {
         }
     }
 
-    @GetMapping("/getBookByTitle/{title}")
+    @GetMapping("/list/title/{title}")
     public ResponseEntity<List<Book>> getBookByTitle(@PathVariable String title) {
         try {
             List<Book> bookList = bookService.getBooksByTitle(title);
@@ -68,7 +71,7 @@ public class BookController {
         }
     }
 
-    @GetMapping("/getBooksByAuthorName/{authorName}")
+    @GetMapping("/list/author/{authorName}")
     public ResponseEntity<List<Book>> getBooksByAuthorName(@PathVariable String authorName) {
         try {
             List<Book> bookList = bookService.getBooksByAuthorName(authorName);
@@ -82,7 +85,7 @@ public class BookController {
         }
     }
 
-    @GetMapping("/getBooksByCategoryName/{categoryName}")
+    @GetMapping("/list/category/{categoryName}")
     public ResponseEntity<List<Book>> getBooksByCategoryName(@PathVariable String categoryName) {
         try {
             List<Book> bookList = bookService.getBooksByCategoryName(categoryName);
@@ -96,17 +99,19 @@ public class BookController {
         }
     }
 
-    @PostMapping("/addBook")
+    @PostMapping("/save")
     public ResponseEntity<Book> addBook(@RequestBody Book book) {
         try {
             Book bookObject = bookService.addBook(book);
             return new ResponseEntity<>(bookObject, HttpStatus.OK);
         } catch (Exception e) {
+    
+            System.out.println(e);
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
-    @PutMapping("/updateBookById/{id}")
+    @PutMapping("/update/{id}")
     public ResponseEntity<Book> updateBookById(@PathVariable Long id, @RequestBody Book newBookData) {
         try {
             Book updatedBook = bookService.updateBookById(id, newBookData);
@@ -120,7 +125,7 @@ public class BookController {
         }
     }
 
-    @DeleteMapping("/deleteBookById/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<HttpStatus> deleteBookById(@PathVariable Long id) {
         try {
             bookService.deleteBookById(id);

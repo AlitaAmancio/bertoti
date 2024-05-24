@@ -33,10 +33,6 @@ public class AuthorService {
         }
     }
 
-    public Optional<Author> getAuthorByName(String name) {
-        return authorInterface.findByNameIgnoreCase(name);
-    }
-
     public Author saveAuthor(Author author) {
         return authorInterface.save(author);
     }
@@ -46,6 +42,8 @@ public class AuthorService {
         if (authorData.isPresent()) {
             Author updatedAuthorData = authorData.get();
             updatedAuthorData.setName(newAuthorData.getName());
+            updatedAuthorData.setBiography(newAuthorData.getBiography());
+            updatedAuthorData.setBirthdate(newAuthorData.getBirthdate());
             if (newAuthorData.getBooks() != null) {
                 updatedAuthorData.setBooks(newAuthorData.getBooks());
             }

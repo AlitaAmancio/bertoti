@@ -17,14 +17,17 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
 
 @RestController
+@RequestMapping("/author")
 public class AuthorController {
 
     @Autowired
     private AuthorService authorService;
 
-    @GetMapping("/getAllAuthors")
+    @GetMapping("/list")
     public ResponseEntity<List<Author>> getAllAuthors() {
         try {
             List<Author> authors = authorService.getAllAuthors();
@@ -40,7 +43,7 @@ public class AuthorController {
         }
     }
 
-    @GetMapping("/getAuthorById/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Author> getAuthorById(@PathVariable Long id) {
         try {
             Optional<Author> authorData = authorService.getAuthorById(id);
@@ -54,7 +57,7 @@ public class AuthorController {
         }
     }
 
-    @GetMapping("/getAuthorsByName/{name}")
+    @GetMapping("/list/{name}")
     public ResponseEntity<List<Author>> getAuthorsByName(@PathVariable String name) {
         try {
             List<Author> authorList = authorService.getAuthorsByName(name);
@@ -68,21 +71,7 @@ public class AuthorController {
         }
     }
 
-    @GetMapping("/getAuthorByName/{name}")
-    public ResponseEntity<Author> getAuthorByName(@PathVariable String name) {
-        try {
-            Optional<Author> authorData = authorService.getAuthorByName(name);
-            if (authorData.isPresent()) {
-                return new ResponseEntity<>(authorData.get(), HttpStatus.OK);
-            } else {
-                return new ResponseEntity<>(HttpStatus.NOT_FOUND);
-            }
-        } catch (Exception e) {
-            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
-        }
-    }
-
-    @PostMapping("/saveAuthor")
+    @PostMapping("/save")
     public ResponseEntity<Author> saveAuthor(@RequestBody Author author) {
         try {
             Author authorObject = authorService.saveAuthor(author);
@@ -92,7 +81,7 @@ public class AuthorController {
         }
     }
 
-    @PutMapping("updateAuthorById/{id}")
+    @PutMapping("update/{id}")
     public ResponseEntity<Author> updateAuthorById(@PathVariable Long id, @RequestBody Author newAuthorData) {
         try {
             Author updatedAuthor = authorService.updateAuthorById(id, newAuthorData);
@@ -106,7 +95,7 @@ public class AuthorController {
         }
     }
 
-    @DeleteMapping("/deleteAuthorById/{id}")
+    @DeleteMapping("/delete/{id}")
     public ResponseEntity<HttpStatus> deleteAuthorById(@PathVariable Long id) {
         try {
             authorService.deleteAuthorById(id);
