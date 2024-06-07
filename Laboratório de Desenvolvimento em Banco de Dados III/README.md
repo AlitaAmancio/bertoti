@@ -9,14 +9,13 @@ Para rodar a aplicação em sua máquina é necessário criar um arquivo "applic
 
 ## CRUD
 ### CREATE
-![CREATE](https://github.com/AlitaAmancio/bertoti/assets/89790349/c3a7444b-c4f3-449f-af06-bd57e3f27e32)
+![CREATE](https://github.com/AlitaAmancio/bertoti/assets/89790349/7c5f92c8-13cb-4e2c-bac4-da8123611b6e)
 ### READ
-![READ](https://github.com/AlitaAmancio/bertoti/assets/89790349/9359cb28-07f8-43a8-9001-976014e1442d)
+![READ](https://github.com/AlitaAmancio/bertoti/assets/89790349/32ba3613-fb5d-4395-b93a-c4847929d9a8)
 ### UPDATE
-![UPDATE](https://github.com/AlitaAmancio/bertoti/assets/89790349/bfd752b0-2af1-425f-bd5c-a98d28c07e90)
+![UPDATE](https://github.com/AlitaAmancio/bertoti/assets/89790349/b06c141a-5a44-4a75-aab5-faa8dd51218b)
 ### DELETE
-![DELETE](https://github.com/AlitaAmancio/bertoti/assets/89790349/34b6cbd9-a489-4472-870d-13932d3e79ad)
-
+![DELETEpng](https://github.com/AlitaAmancio/bertoti/assets/89790349/e02482d7-4b8e-441d-bf8e-bffd58645673)
 
 ## Tecnologias Utilizadas
 * [Java](https://dev.java/) — Linguagem de Programação.
