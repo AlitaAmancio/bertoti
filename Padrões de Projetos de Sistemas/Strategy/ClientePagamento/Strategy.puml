@@ -1,0 +1,29 @@
+@startuml
+interface Pagamento {
+    + realizarPagamento(valor: double) : void
+}
+
+class Credito {
+    - parcelas: Integer
+    + Credito(parcelas: Integer)
+    + getParcelas() : Integer
+    + setParcelas(parcelas: Integer) : void
+    + realizarPagamento(valor: double) : void
+}
+
+class Debito {
+    + realizarPagamento(valor: double) : void
+}
+
+class Pedido {
+    - pagamento: Pagamento
+    + Pedido()
+    + getPagamento() : Pagamento
+    + setPagamento(pagamento: Pagamento) : void
+    + realizarPagamento(valor: double) : void
+}
+
+Pedido o-- Pagamento : "tem"
+Credito ..|> Pagamento : "implementa"
+Debito ..|> Pagamento : "implementa"
+@enduml
