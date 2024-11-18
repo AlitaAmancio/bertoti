@@ -1,0 +1,16 @@
+@startuml
+class DatabaseConnection {
+    - static DatabaseConnection instance
+    - boolean isConnected
+    - DatabaseConnection()
+    + static getInstance() : DatabaseConnection
+    + isConnected() : boolean
+    + closeConnection() : void
+}
+
+class App {
+    + main(String[] args) : void
+}
+
+App ..> DatabaseConnection : uses
+@enduml
