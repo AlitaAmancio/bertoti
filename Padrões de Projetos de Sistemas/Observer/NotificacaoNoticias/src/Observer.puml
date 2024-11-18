@@ -1,0 +1,44 @@
+@startuml
+interface Subject {
+    +addObserver(Observer observer)
+    +removeObserver(Observer observer)
+    +notifyObservers()
+}
+
+interface Observer {
+    +update(String news)
+}
+
+class NewsWebsite {
+    -String name
+    +NewsWebsite(String name)
+    +update(String news)
+}
+
+class NewsApp {
+    -String name
+    +NewsApp(String name)
+    +update(String news)
+}
+
+class NewsAgency {
+    -List<Observer> observers
+    -String latestNews
+    +addObserver(Observer observer)
+    +removeObserver(Observer observer)
+    +notifyObservers()
+    +setLatestNews(String news)
+}
+
+class App {
+    +main(String[] args)
+}
+
+Subject <|.. NewsAgency
+Observer <|.. NewsApp
+Observer <|.. NewsWebsite
+App ..> NewsAgency : uses
+App ..> NewsWebsite : uses
+App ..> NewsApp : uses
+
+@enduml
