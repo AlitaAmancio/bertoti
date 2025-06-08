@@ -1,12 +1,22 @@
-# Alita Willians da Silva Amancio
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=transparent&width=1000&height=120&text=Alita%20Amancio%20%7C%20Portf%C3%B3lio%20APIs&fontColor=FE8DB9&fontSize=50" />
+</p>
 
-## Introdução
+<table cellspacing="0" border="0" style="border-collapse: collapse;">
+  <tr>
+    <td width="30%" style="border:none; padding:0;">
+      <img src="https://github.com/user-attachments/assets/cce28d30-7681-4f66-b4a2-bfc0ab0bf5d8" alt="Alita Amancio" width="100%" />
+    </td>
+    <td style="border:none; padding-left: 25px; vertical-align: top;">
+      <h3><span style="color:#FE8DB9;">Olá! Um pouco sobre mim:</span></h3>
+      <p>Sou uma mulher negra, trans e brasileira, apaixonada por arte, programação e pela diversidade do universo ao meu redor. Tenho interesse por tudo que se destaca pela sua originalidade.</p>
+      <p>O início da minha trajetória na programação foi no bootcamp da {reprograma}, onde tive a oportunidade de me aprofundar no desenvolvimento de software. A partir daí, segui para o curso de Análise e Desenvolvimento de Sistemas (ADS) e, atualmente, estou cursando Banco de Dados, focando em tecnologias diversas e o armazenamento e a gestão de dados.</p>
+      <p>Estou em constante evolução profissional e busco colaborar em projetos inovadores que tragam soluções criativas e impactem positivamente a sociedade.</p>
+    </td>
+  </tr>
+</table>
 
-Sou uma mulher negra, trans e brasileira, apaixonada por arte, programação e pela diversidade do universo ao meu redor. Tenho interesse por tudo que se destaca pela sua originalidade.
 
-O início da minha trajetória na programação foi no bootcamp da {reprograma}, onde tive a oportunidade de me aprofundar no desenvolvimento de software. A partir daí, segui para o curso de Análise e Desenvolvimento de Sistemas (ADS) e, atualmente, estou cursando Banco de Dados, focando em tecnologias diversas e o armazenamento e a gestão de dados. Ao longo dessa jornada, tenho explorado diferentes áreas do desenvolvimento de software, sempre em busca de expandir meus conhecimentos e aplicar a teoria na prática.
-
-Estou em constante evolução profissional e busco colaborar em projetos inovadores que tragam soluções criativas e impactem positivamente a sociedade.
 
 ## Contatos
 
@@ -19,10 +29,184 @@ Minha trajetória na programação começou com JavaScript e MongoDB, evoluindo 
 
 ## Meus Projetos
 
-### Em 2024-1
+### Em 2022-2
+![biosImg](https://github.com/user-attachments/assets/51934458-b927-44e0-90f0-4144259c9c9e)
 
 <details>
+<summary>
+  <strong>
+    BIOS — BRILLIANT INTEGRATED ORGANIC SYSTEMS
+  </strong>
+</summary>
 
+A solução criada é uma plataforma web dedicada à gestão e monitoramento de problemas em máquinas distribuídas nos laboratórios da Fatec SJC. A BIOS oferece uma interface prática e intuitiva que permite reportar e acompanhar falhas de forma rápida e organizada. Com foco em otimizar o fluxo de manutenção, a plataforma facilita a comunicação entre usuários e equipes técnicas, garantindo maior eficiência e transparência no processo de atendimento e resolução dos incidentes.
+
+[GIT](https://github.com/m-u-l-a-s/BIOS)
+
+</br>
+
+<details>
+<summary>
+<strong>Empresa Parceira: Fatec SJC</strong>
+</summary>
+
+</br>
+
+A Fatec São José dos Campos é uma instituição pública de ensino focada em tecnologia e inovação, reconhecida pela formação de profissionais qualificados para o mercado regional. Com infraestrutura moderna e forte conexão com o setor produtivo, a Fatec contribui para o desenvolvimento de soluções práticas e eficientes, como a plataforma BIOS.
+
+[Fatec SJC](https://fatecsjc-prd.azurewebsites.net/)
+
+</details>
+
+</br>
+
+<details>
+<summary>
+<strong>Problema Identificado</strong>
+</summary>
+
+</br>
+
+Na Fatec São José dos Campos, a manutenção das máquinas em diversos laboratórios depende de processos manuais para reportar e acompanhar falhas, o que pode gerar atrasos e dificuldades na comunicação entre usuários e equipes técnicas. Essa abordagem torna o processo de manutenção menos eficiente e impacta negativamente a agilidade na resolução dos problemas. O desafio, portanto, é desenvolver uma plataforma prática e intuitiva que permita o registro e monitoramento ágil dos incidentes, facilitando a comunicação e otimizando o fluxo de trabalho das equipes responsáveis pela manutenção.
+
+</details>
+
+</br>
+
+<details>
+<summary>
+<strong>Solução Entregue</strong>
+</summary>
+
+</br>
+
+A solução desenvolvida é uma plataforma web intuitiva e eficiente para o gerenciamento e monitoramento de falhas em máquinas dos laboratórios da Fatec São José dos Campos. A BIOS permite que os usuários reportem problemas de forma rápida e acompanhem o status das solicitações em tempo real. A interface facilita a comunicação entre os usuários e as equipes técnicas, organizando as informações de maneira clara e acessível. Além disso, a plataforma oferece funcionalidades para priorização dos atendimentos, controle de permissões e um painel administrativo que possibilita o monitoramento detalhado dos chamados e dos processos de manutenção, garantindo transparência, agilidade e maior eficiência operacional.
+
+</details>
+
+</details>
+
+---
+
+</br>
+
+<details>
+<summary>
+<strong>Tecnologias Utilizadas</strong>
+</summary>
+
+</br>
+
+- **HTML**: Utilizado para estruturar o conteúdo da interface web, garantindo uma base sólida e semântica para o front-end da aplicação.
+
+- **CSS**: Responsável pela estilização da interface, permitindo um design moderno, responsivo e atraente para os usuários.
+
+- **JavaScript**: Linguagem principal para tornar a interface interativa e dinâmica, facilitando a comunicação com o back-end e melhorando a experiência do usuário.
+
+- **Python**: Linguagem utilizada no desenvolvimento do back-end, escolhida pela sua simplicidade, versatilidade e grande ecossistema de bibliotecas.
+
+- **Flask**: Framework Python utilizado para construir a aplicação web, proporcionando uma estrutura leve e flexível para desenvolvimento rápido e manutenção eficiente.
+
+- **Bootstrap**: Biblioteca CSS utilizada para acelerar a criação de interfaces responsivas e consistentes, com componentes prontos e design adaptável a diferentes dispositivos.
+
+- **Figma**: Ferramenta de design colaborativo para criação e prototipagem da interface da aplicação, facilitando a comunicação visual entre equipe e stakeholders.
+
+- **GitHub**: Plataforma utilizada para controle de versão do código-fonte, gerenciamento de versões, colaboração e integração contínua do projeto.
+
+- **MySQL**: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar e organizar os dados da aplicação de forma segura e eficiente.
+
+- **Discord**: Ferramenta de comunicação adotada pela equipe para discussões rápidas, troca de ideias e colaboração em tempo real durante o desenvolvimento do projeto.
+</details>
+
+</br>
+
+<details> 
+<summary> 
+<strong>Contribuições Pessoais</strong> 
+</summary> 
+
+</br>
+  
+Durante o projeto, atuei principalmente na implementação de funcionalidades do front-end com foco em acessibilidade da informação, experiência do usuário e boas práticas visuais. A seguir, listo algumas contribuições relevantes:
+
+<details> 
+  
+<summary> 
+<strong>Base das recomendações de solução de problemas</strong> 
+</summary>
+
+Implementei uma funcionalidade interativa no formulário de reporte de problemas que sugere automaticamente soluções básicas com base no tipo de erro selecionado pelo usuário (ex: "Teclado", "Internet", "Máquina não liga"). A lógica foi escrita em JavaScript e integrada ao HTML da página reportar.html, e novos estilos foram aplicados via CSS para garantir uma exibição clara das mensagens. A solução contribui diretamente para a autonomia do usuário final e reduz o número de chamados desnecessários.
+
+</details> </br> <details> <summary> <strong>Adicionado link colapsável 'Especificações das Máquinas'</strong> </summary>
+Implementei um componente colapsável para exibição das especificações técnicas das máquinas da instituição na tela de consulta de problemas resolvidos. A reformulação incluiu a organização semântica da informação em HTML e o uso de classes CSS para controle visual. A seção foi projetada para ser acessível e responsiva, melhorando a usabilidade e reduzindo o excesso de informações visíveis por padrão.
+
+</details> </br>
+Essas entregas evidenciam minha atenção a detalhes de usabilidade, clareza de código e boas práticas na organização da interface. Combinando HTML, CSS e JavaScript puro, contribuí para tornar a plataforma mais amigável, funcional e acessível para os usuários da BIOS.
+
+</details> </br>
+
+<details> <summary> <strong>Hard Skills</strong> </summary>
+
+</br>
+  
+Ao longo do projeto, desenvolvi competências técnicas essenciais, explorando tecnologias de front-end e back-end, além de metodologias ágeis de gestão de produto. Foi uma oportunidade valiosa para aplicar e consolidar conhecimentos práticos logo no início da minha jornada acadêmica em tecnologia.
+
+<details> <summary> <strong>Desenvolvimento Web (HTML, CSS, JS)</strong> </summary>
+  
+- **HTML5**: Utilizei HTML para estruturar as interfaces do sistema, criando páginas intuitivas e bem organizadas. Trabalhei com tags semânticas e elementos reutilizáveis, alcançando proficiência intermediária no desenvolvimento de estruturas web responsivas.
+
+- **CSS3**: Apliquei estilos personalizados às páginas utilizando CSS puro, aprimorando a estética da interface e garantindo uma boa usabilidade. Experimentei variações de layout e explorei propriedades como border-radius, text-align e height: fit-content.
+
+- **JavaScript**: Implementei lógica de interação no front-end com JavaScript puro, como sugestões dinâmicas baseadas na escolha do usuário. Alcancei proficiência intermediária, com foco em DOM manipulation e boas práticas de legibilidade de código.
+
+</details> </br> <details> <summary> <strong>Desenvolvimento Backend (Python/Flask)</strong> </summary>
+  
+- **Python**: Utilizei Python como base da aplicação backend, estruturando a lógica dos endpoints e o fluxo de dados entre a interface e o banco de dados. Proficiência alcançada: intermediária, com domínio da sintaxe e uso de bibliotecas nativas.
+
+- **Flask**: Com Flask, estruturei rotas e conectei formulários do front-end com o backend da aplicação, além de configurar templates. Esta experiência me deu uma compreensão prática do modelo MVC e da organização de projetos em microframeworks.
+
+</details> </br> <details> <summary> <strong>Banco de Dados e Modelagem</strong> </summary>
+  
+- **MySQL**: Realizei a criação de tabelas, ajustes de colunas e manutenção do banco de dados relacional, garantindo a integridade dos dados inseridos pela plataforma. A proficiência é básica a intermediária, com foco na sintaxe SQL e estruturação de dados.
+
+</details> </br> <details> <summary> <strong>Design e Prototipação</strong> </summary>
+  
+- **Figma**: Usei o Figma para organizar ideias e criar esboços visuais da interface. A ferramenta auxiliou na comunicação visual com o time, especialmente nas fases iniciais de concepção da experiência do usuário.
+
+</details> </br> <details> <summary> <strong>Versionamento e Colaboração</strong> </summary>
+  
+- **GitHub**: Participei ativamente do versionamento do código, criando e revisando pull requests. Proficiência básica, com foco em boas práticas de commit e organização de branches.
+
+- **Discord**: Utilizado como principal canal de comunicação com a equipe, facilitando a troca rápida de informações e o alinhamento das entregas em tempo real.
+
+</details> </br> <details> <summary> <strong>Gestão de Produto (Atuação como P.O.)</strong> </summary>
+  
+Atuei como Product Owner (P.O.), representando os interesses do cliente e garantindo o alinhamento do projeto com as necessidades reais do usuário. Participei de reuniões, elaborei especificações técnicas e organizei prioridades de desenvolvimento. Essa atuação me proporcionou experiência prática em metodologias ágeis e uma visão ampla sobre planejamento e entregas em projetos reais.
+
+</details> </details>
+
+</br>
+
+<details> <summary> <strong>Soft Skills</strong> </summary>
+  
+- **Comunicação com o Cliente**: Como P.O., exerci uma comunicação clara e empática com os stakeholders, traduzindo as demandas em requisitos técnicos compreensíveis para a equipe. Essa habilidade foi fundamental para garantir que a solução atendesse às expectativas do cliente.
+
+- **Aprendizado Rápido**: Sendo meu primeiro semestre na área de tecnologia, mergulhei em diversas linguagens, ferramentas e frameworks de forma autodidata e colaborativa. Desenvolvi a habilidade de aprender sob demanda, aplicando novos conhecimentos em tempo real durante o desenvolvimento.
+
+- **Proatividade**: Tomei iniciativa na identificação de melhorias e propondo soluções, tanto em aspectos técnicos quanto organizacionais. Essa postura me ajudou a evoluir rapidamente dentro do time e assumir responsabilidades de liderança desde o início.
+
+- **Trabalho em Equipe**: Contribuí ativamente com a equipe multidisciplinar, respeitando o fluxo de trabalho ágil e colaborando para o alcance dos objetivos comuns. A troca constante de ideias e o suporte mútuo fortaleceram a coesão do grupo.
+
+- **Organização**: Com a rotina estruturada em sprints, desenvolvi habilidades de planejamento e controle de tempo, organizando tarefas e acompanhando entregas de forma eficaz, mesmo diante de múltiplas demandas simultâneas.
+
+- **Empatia e Escuta Ativa**: Ao lidar diretamente com usuários e desenvolvedores, aprendi a escutar com atenção antes de propor soluções, levando em consideração diferentes perspectivas para tomar decisões mais assertivas.
+
+</details>
+
+### Em 2024-1
+![domRockImg](https://github.com/user-attachments/assets/b586aa77-0630-4e02-a2fa-4c1ee8281247)
+
+<details>
 <summary>
 <strong>DOM ROCK PIPELINE CONFIGURATOR</strong>
 </summary>
