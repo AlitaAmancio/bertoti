@@ -203,6 +203,102 @@ Atuei como Product Owner (P.O.), representando os interesses do cliente e garant
 
 </details>
 
+### Em 2023-1
+![pareImg](https://github.com/user-attachments/assets/486fd91f-62e9-4797-a8b8-3f82d68c45ba)
+
+<details> 
+<summary> 
+<strong>PARE – Plataforma de Acompanhamento de Rendimento Escolar</strong> 
+</summary>
+  
+A PARE é uma solução desktop desenvolvida com foco no ambiente educacional, especialmente para auxiliar professores na gestão de atividades avaliativas e no acompanhamento individualizado do desempenho dos alunos. A plataforma permite o cadastro de provas e trabalhos com suas respectivas especificações, datas de entrega e atribuições por aluno, como notas e observações. A proposta é tornar o processo de registro e análise de rendimento mais prático, confiável e acessível, proporcionando aos educadores maior controle e visibilidade sobre a evolução das turmas ao longo do tempo.
+
+[GIT](https://github.com/m-u-l-a-s/PARE)
+
+</br> <details> <summary> <strong>Empresa Parceira: FATEC São José dos Campos</strong> </summary> </br>
+A FATEC São José dos Campos atuou como instituição parceira deste projeto, proporcionando o contexto real para o desenvolvimento da solução. A proposta surgiu da necessidade de otimizar processos administrativos e pedagógicos em ambientes escolares, especialmente no registro e controle de atividades avaliativas. Com o apoio de professores e orientadores da instituição, o projeto foi estruturado com base em demandas reais do cotidiano educacional, garantindo maior alinhamento com os desafios enfrentados por docentes.
+
+[FATEC SJC](https://fatecsjc-prd.azurewebsites.net/)
+
+</details> </br> <details> <summary> <strong>Problema Identificado</strong> </summary> </br>
+Durante a rotina escolar, professores precisam registrar diversas avaliações (provas, trabalhos, atividades complementares), suas especificações, datas e respectivas notas por aluno. Esse processo, quando feito manualmente ou com ferramentas genéricas como planilhas, se torna demorado, suscetível a erros e difícil de manter atualizado. A ausência de uma plataforma específica para essa finalidade compromete a organização das atividades, dificulta o acompanhamento da evolução dos alunos e torna mais complexa a geração de relatórios e análises pedagógicas. O desafio foi criar uma solução simples, funcional e acessível que atendesse diretamente essa lacuna no processo educacional.
+
+</details> </br> <details> <summary> <strong>Solução Entregue</strong> </summary> </br>
+A solução desenvolvida é uma aplicação desktop desenvolvida em Java que permite aos professores cadastrar instituições, turmas, alunos e atividades avaliativas. Cada atividade pode conter notas individuais, observações e status de entrega, permitindo o acompanhamento detalhado de cada estudante. O sistema também possibilita visualizar e consultar o desempenho por aluno ou turma, facilitando a tomada de decisão pedagógica. Com interface simples e funcionalidades objetivas, a plataforma busca atender à realidade de professores que precisam de uma ferramenta confiável para gestão de avaliações.
+
+</details> </details>
+
+---
+
+</br>
+<details> 
+<summary> 
+<strong>Tecnologias Utilizadas</strong> 
+</summary> 
+  
+- **Java**: Linguagem de programação principal utilizada para o desenvolvimento da aplicação desktop, devido à sua robustez, portabilidade e ampla utilização em projetos acadêmicos e corporativos.
+
+- **Apache NetBeans**: IDE escolhida para o desenvolvimento do projeto Java, com recursos integrados de depuração, design visual e integração com banco de dados.
+
+- **MySQL**: Banco de dados relacional utilizado para armazenar todas as informações da aplicação, incluindo instituições, turmas, alunos e atividades avaliativas.
+
+- **GitHub**: Utilizado para controle de versão, colaboração entre os membros da equipe, e hospedagem do repositório do projeto.
+
+- **Figma**: Ferramenta de prototipação utilizada para planejar a interface da aplicação, permitindo que o design fosse validado visualmente antes do desenvolvimento.
+
+- **Discord**: Plataforma utilizada para reuniões, alinhamento de tarefas e discussões técnicas em tempo real, promovendo a comunicação fluida entre os integrantes da equipe.
+
+- **Trello**: Aplicação de gerenciamento de tarefas que auxiliou na organização do backlog, acompanhamento das sprints e distribuição de atividades entre os membros do time.
+
+</details>
+
+</br> 
+
+<details> <summary> <strong>Contribuições Pessoais</strong> </summary> </br>
+Durante o desenvolvimento do projeto PARE, atuei em frentes técnicas e de usabilidade, contribuindo diretamente para a navegação do sistema e automação de processos pedagógicos. A seguir, listo algumas das minhas entregas mais relevantes:
+
+<details> <summary> <strong>Botão “Página Inicial” com Navegação Funcional</strong> </summary>
+Implementei um botão com texto e ícone na tela de cadastro de aluno que redireciona o usuário para a tela inicial do sistema. Essa funcionalidade tornou a navegação mais intuitiva, reduzindo cliques e facilitando o retorno à tela principal.
+
+</details> </br> <details> <summary> <strong>Botão “Cadastrar” na Tela Principal</strong> </summary>
+Adicionei o botão “Cadastrar” à Tela Principal com evento ActionListener, que abre a interface de cadastro de alunos. A inclusão dessa funcionalidade atendeu à demanda de facilitar o acesso a tarefas comuns por parte dos professores.
+
+</details> </br> <details> <summary> <strong>Atribuição automática de avaliações</strong> </summary>
+Implementei a lógica de atribuição de uma nova avaliação a todos os alunos da sala automaticamente. Isso eliminou a necessidade de cadastro individual, agilizando o processo de criação de atividades.
+
+</details> </br> <details> <summary> <strong>Cálculo de rendimento e média por avaliação</strong> </summary>
+Implementei funcionalidades para calcular e exibir, em tempo real, a média da turma, número de aprovados e rendimento geral por avaliação, facilitando a análise de desempenho diretamente na interface.
+
+</details> </details>
+</br> <details> <summary> <strong>Hard Skills</strong> </summary> </br>
+Durante o projeto, desenvolvi competências técnicas tanto no desenvolvimento da interface quanto na camada de negócio da aplicação.
+
+</br> <details> <summary> <strong>Java (Swing)</strong> </summary>
+Trabalhei com Java Swing para criar e manipular componentes visuais, incluindo botões, eventos e redirecionamentos. Aprofundei o uso de ActionListener, layouts e personalização visual, alcançando proficiência intermediária na construção de interfaces gráficas.
+
+</details> </br> <details> <summary> <strong>Banco de Dados (MySQL)</strong> </summary>
+Implementei comandos SQL para inserção e recuperação de dados, utilizando PreparedStatement e boas práticas de conexão com banco em Java. Estruturei tabelas como aluno_avaliacao e desenvolvi a lógica de relacionamento entre entidades.
+
+</details> </br> <details> <summary> <strong>POO e Organização de Código</strong> </summary>
+Criei classes e métodos organizados, utilizando conceitos de orientação a objetos para modularizar funcionalidades como cadastro em massa e cálculo de rendimento. Estruturei métodos reaproveitáveis com foco em clareza e manutenção.
+
+</details> </br> <details> <summary> <strong>Integração Back-End e Interface</strong> </summary>
+Integrei a lógica de negócio com a interface gráfica de maneira fluida, permitindo que as interações do usuário atualizassem corretamente os dados no banco e exibissem feedbacks visuais imediatos.
+
+</details> </details>
+</br> <details> <summary> <strong>Soft Skills</strong> </summary>
+  
+- **Colaboração**: Trabalhei de forma próxima com colegas desenvolvedores para garantir integração entre as telas e funcionalidades, propondo soluções em conjunto e fazendo revisões de código.
+
+- **Comunicação**: Participei de reuniões frequentes com a equipe, contribuindo com sugestões de melhoria de usabilidade e reportando avanços e impedimentos de forma clara.
+
+- **Responsabilidade Técnica**: Assumi a implementação de partes críticas do sistema e garanti o funcionamento correto de lógicas como cadastro automático de avaliações.
+
+- **Organização**: Gerenciei minhas tarefas via Trello, priorizando demandas e organizando entregas de acordo com os ciclos de desenvolvimento definidos em equipe.
+
+</details>
+
+
 ### Em 2024-1
 ![domRockImg](https://github.com/user-attachments/assets/b586aa77-0630-4e02-a2fa-4c1ee8281247)
 
