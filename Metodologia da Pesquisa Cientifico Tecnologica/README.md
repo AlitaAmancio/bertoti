@@ -850,3 +850,4 @@ Utilizei Vue 3 com Composition API para controle de estado, reatividade e ciclo 
 </details>
 
 ## Em 2025-1
+![trackImg](https://github.com/user-attachments/assets/a2af3a6f-d282-48cd-8643-1329d51319a9)
