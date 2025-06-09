@@ -426,9 +426,6 @@ Implementei upload de arquivos via XMLHttpRequest com controle do progresso, tra
 
 </details>
 
-
-
-
 ## Em 2024-1
 ![domRockImg](https://github.com/user-attachments/assets/b586aa77-0630-4e02-a2fa-4c1ee8281247)
 
@@ -677,7 +674,7 @@ Em resumo, o projeto proporcionou uma oportunidade significativa para aplicar e 
 - **Proatividade**: Para me integrar de forma eficaz ao time, precisei ser proativa ao assumir responsabilidades e tomar a iniciativa, seja ao sugerir melhorias nos processos ou ao antecipar possíveis problemas. Essa atitude não só acelerou meu processo de adaptação, como também mostrou meu comprometimento com o sucesso do time e com a entrega de resultados. Ao agir de forma proativa, contribuo para um ambiente de trabalho mais dinâmico e com menos necessidade de supervisão constante.
 </details>
 
-### Em 2024-2
+## Em 2024-2
 ![GeoTrack](https://github.com/user-attachments/assets/4213032d-5f60-4a3a-9792-ccd9917d22c1)
 
 <details>
@@ -767,21 +764,81 @@ O GeoTrack oferece uma plataforma web que possibilita interação com mapas por 
 
 </details>
 
-<details> <summary> <strong>Contribuições Pessoais</strong> </summary>
+</br>
+
+<details> 
+<summary> 
+<strong>Contribuições Pessoais</strong> 
+</summary>
+
 Durante o desenvolvimento do GeoTrack, atuei principalmente na criação e refatoração de componentes de filtro e métricas, além de melhorias na navegação e usabilidade da interface.
 
-<details> <summary> <strong>Criação do Componente MetricsCard</strong> </summary> Desenvolvi o componente MetricsCard para exibir métricas do sistema, como número de usuários e áreas geográficas. O componente consome dados da API, utiliza Vue Composition API e atualiza os valores em tempo real. </details> </br> <details> <summary> <strong>Integração do MetricsCard na Sidebar</strong> </summary> Integrei o MetricsCard à Sidebar com uso de v-expansion-panels do Vuetify, permitindo ao usuário acessar filtros e métricas em uma interface clara e intuitiva, com navegação direta para diferentes funcionalidades. </details> </br> <details> <summary> <strong>Refatoração dos Componentes de Filtro</strong> </summary> Melhorei a legibilidade e manutenção dos componentes GeographicAreasFilter e StopPointsFilter, reestruturando o markup, padronizando chamadas de API e organizando melhor as propriedades dos componentes Vuetify. </details> </br> <details> <summary> <strong>Adição do Botão de Ajuda "Dúvidas?"</strong> </summary> Implementei o botão de ajuda com ícone de interrogação (mdi-help-circle) nos painéis de filtro, através do componente InfoPanel.vue, oferecendo ponto de acesso para futuras orientações ou tooltips de uso. </details> </details> 
+<details> 
+<summary> 
+<strong>Criação do Componente MetricsCard</strong> 
+</summary> 
 
-<details> <summary> <strong>Hard Skills</strong> </summary>
+Desenvolvi o componente MetricsCard para exibir métricas do sistema, como número de usuários e áreas geográficas. O componente consome dados da API, utiliza Vue Composition API e atualiza os valores em tempo real. 
+</details> </br> 
+
+<details> 
+<summary> 
+<strong>Integração do MetricsCard na Sidebar</strong> 
+</summary> 
+Integrei o MetricsCard à Sidebar com uso de v-expansion-panels do Vuetify, permitindo ao usuário acessar filtros e métricas em uma interface clara e intuitiva, com navegação direta para diferentes funcionalidades. 
+</details> </br> 
+
+<details> 
+<summary> 
+<strong>Refatoração dos Componentes de Filtro</strong> 
+</summary> Melhorei a legibilidade e manutenção dos componentes GeographicAreasFilter e StopPointsFilter, reestruturando o markup, padronizando chamadas de API e organizando melhor as propriedades dos componentes Vuetify. 
+</details> </br> 
+
+<details> 
+<summary> 
+<strong>Adição do Botão de Ajuda "Dúvidas?"</strong> 
+</summary> Implementei o botão de ajuda com ícone de interrogação (mdi-help-circle) nos painéis de filtro, através do componente InfoPanel.vue, oferecendo ponto de acesso para futuras orientações ou tooltips de uso. </details> </details> 
+
+</br>
+
+<details> 
+<summary> 
+<strong>Hard Skills</strong> 
+</summary>
   
 Durante o projeto GeoTrack, desenvolvi as seguintes competências técnicas:
 
-<details> <summary> <strong>Vue 3 com Composition API</strong> </summary>
+<details> 
+<summary> 
+<strong>Vue 3 com Composition API</strong> 
+</summary>
 Utilizei Vue 3 com Composition API para controle de estado, reatividade e ciclo de vida em componentes como MetricsCard e filtros de busca.
+</details> </br> 
 
-</details> </br> <details> <summary> <strong>Vuetify</strong> </summary> Implementei layouts responsivos e componentes estilizados com Vuetify (v-combobox, v-btn, v-date-input, v-chip), garantindo boa usabilidade e consistência visual. </details> </br> <details> <summary> <strong>Integração com API via Axios</strong> </summary> Realizei chamadas assíncronas para recuperar dados de usuários e áreas geográficas, tratando erros e estruturando os dados recebidos no formato adequado para os componentes. </details> </br> <details> <summary> <strong>Vue Router e Navegação Condicional</strong> </summary> Implementei lógica de navegação condicional entre filtros e páginas, com uso de Vue Router e controle dinâmico de expansão de painéis de filtro com base na rota atual. </details> </details> <details> 
+<details> 
+<summary> 
+<strong>Vuetify</strong> 
+</summary> Implementei layouts responsivos e componentes estilizados com Vuetify (v-combobox, v-btn, v-date-input, v-chip), garantindo boa usabilidade e consistência visual. 
+</details> </br> 
+
+<details> 
+<summary> 
+<strong>Integração com API via Axios</strong> 
+</summary> Realizei chamadas assíncronas para recuperar dados de usuários e áreas geográficas, tratando erros e estruturando os dados recebidos no formato adequado para os componentes. 
+</details> </br> 
+
+<details> 
+<summary> 
+<strong>Vue Router e Navegação Condicional</strong> 
+</summary> Implementei lógica de navegação condicional entre filtros e páginas, com uso de Vue Router e controle dinâmico de expansão de painéis de filtro com base na rota atual. </details> 
+</details> 
+
+</br>
   
-<summary> <strong>Soft Skills</strong> </summary>
+<details> 
+<summary> 
+<strong>Soft Skills</strong> 
+</summary>
 
 - **Comunicação**: Interação constante com o time para alinhar as melhorias visuais e técnicas nos componentes de filtro e layout da Sidebar.
 
@@ -790,5 +847,6 @@ Utilizei Vue 3 com Composition API para controle de estado, reatividade e ciclo 
 - **Organização**: Refatoração de código em componentes coesos e reaproveitáveis, melhorando legibilidade e manutenção futura.
 
 - **Colaboração**: Alinhamento com boas práticas de equipe e integração de novos componentes com as funcionalidades existentes no sistema.
-
 </details>
+
+## Em 2025-1
