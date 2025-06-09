@@ -792,15 +792,3 @@ Utilizei Vue 3 com Composition API para controle de estado, reatividade e ciclo 
 - **Colaboração**: Alinhamento com boas práticas de equipe e integração de novos componentes com as funcionalidades existentes no sistema.
 
 </details>
-
-### Em 2022-2
-
-Mesmo formato
-
-### Em 2023-1
-
-Mesmo formato
-
-### Em 2023-2
-
-Mesmo formato
