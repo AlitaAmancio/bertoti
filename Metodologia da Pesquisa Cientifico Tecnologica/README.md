@@ -1,17 +1,16 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=transparent&width=1000&height=120&text=Alita%20Amancio%20%7C%20Portf%C3%B3lio%20APIs&fontColor=FE8DB9&fontSize=50" />
-</p>
+<div align="center" style="display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <img src="https://github.com/user-attachments/assets/cce28d30-7681-4f66-b4a2-bfc0ab0bf5d8" alt="Alita Amancio" width="150px" />
+  <img src="https://capsule-render.vercel.app/api?type=transparent&width=600&height=120&text=Alita%20Amancio%20%7C%20Portf%C3%B3lio%20APIs&fontColor=FE8DB9&fontSize=40" />
+</div>
 
 <table cellspacing="0" border="0" style="border-collapse: collapse;">
   <tr>
-    <td width="30%" style="border:none; padding:0;">
-      <img src="https://github.com/user-attachments/assets/cce28d30-7681-4f66-b4a2-bfc0ab0bf5d8" alt="Alita Amancio" width="100%" />
-    </td>
     <td style="border:none; padding-left: 25px; vertical-align: top;">
       <h3><span style="color:#FE8DB9;">Olá! Um pouco sobre mim:</span></h3>
-      <p>Sou uma mulher negra, trans e brasileira, apaixonada por arte, programação e pela diversidade do universo ao meu redor. Tenho interesse por tudo que se destaca pela sua originalidade.</p>
-      <p>O início da minha trajetória na programação foi no bootcamp da {reprograma}, onde tive a oportunidade de me aprofundar no desenvolvimento de software. A partir daí, segui para o curso de Análise e Desenvolvimento de Sistemas (ADS) e, atualmente, estou cursando Banco de Dados, focando em tecnologias diversas e o armazenamento e a gestão de dados.</p>
-      <p>Estou em constante evolução profissional e busco colaborar em projetos inovadores que tragam soluções criativas e impactem positivamente a sociedade.</p>
+      <p>Sou uma mulher negra, trans e brasileira, nascida em São José dos Campos, São Paulo. Desde criança, sempre fui apaixonada por tecnologia, jogos e resolver desafios. O que antes era um passatempo virou profissão: hoje curso Tecnologia em Banco de Dados na FATEC São José dos Campos e atuo como estagiária em desenvolvimento de software na Accenture.</p>
+      <p>Minha trajetória na tecnologia começou com o bootcamp da {reprograma}, um curso feito por mulheres e para mulheres, que me fez enxergar que existia, sim, espaço para alguém como eu nessa área. Foi ali que me vi como programadora pela primeira vez e entendi que meu corpo e minha história também cabem no mundo da tecnologia.</p>
+      <p>Antes disso, explorei outras áreas. Estudei teatro na UFSJ, o que me trouxe sensibilidade, escuta e criatividade. Também passei pela gestão de recursos humanos, onde aprendi sobre pessoas, processos e empatia. Essas vivências continuam comigo até hoje, e me ajudam muito quando estou colaborando em equipe, lidando com problemas complexos ou pensando em soluções mais humanas.</p>
+      <p>Sou curiosa, inquieta e apaixonada por tudo que envolve originalidade. Estou sempre buscando aprender mais e contribuir com projetos que unam tecnologia, diversidade e impacto social. Resolver problemas é algo que me motiva, e poder fazer isso todos os dias, com propósito, é o que me move.</p>
     </td>
   </tr>
 </table>
@@ -22,6 +21,7 @@
 
 - [GIT](https://github.com/AlitaAmancio)
 - [LinkedIn](https://www.linkedin.com/in/AlitaAmancio/)
+- [Email](mailto:amancioalita@gmail.com)
 
 ## Meus Principais Conhecimentos
 
