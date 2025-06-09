@@ -29,13 +29,13 @@ Minha trajetória na programação começou com JavaScript e MongoDB, evoluindo 
 
 ## Meus Projetos
 
-### Em 2022-2
+## Em 2022-2
 ![biosImg](https://github.com/user-attachments/assets/51934458-b927-44e0-90f0-4144259c9c9e)
 
 <details>
 <summary>
   <strong>
-    BIOS — BRILLIANT INTEGRATED ORGANIC SYSTEMS
+    BIOS — Brilliant Integrated Organic Systems
   </strong>
 </summary>
 
@@ -203,7 +203,7 @@ Atuei como Product Owner (P.O.), representando os interesses do cliente e garant
 
 </details>
 
-### Em 2023-1
+## Em 2023-1
 ![pareImg](https://github.com/user-attachments/assets/486fd91f-62e9-4797-a8b8-3f82d68c45ba)
 
 <details> 
@@ -298,13 +298,143 @@ Integrei a lógica de negócio com a interface gráfica de maneira fluida, permi
 
 </details>
 
+## Em 2023-2
+![protonImg](https://github.com/user-attachments/assets/91ed1879-0a85-4cc5-8de8-af82e3a4d501)
 
-### Em 2024-1
+<details> 
+<summary> 
+<strong>Proton – Project Tracker, Organizer and Notifier</strong> 
+</summary>
+  
+O Proton é uma plataforma web desenvolvida para otimizar a organização, documentação e acompanhamento de processos em empresas de tecnologia voltadas à saúde. A aplicação conta com quatro perfis de usuário principais: colaboradores, que podem anexar pendências e evidências aos processos pelos quais são responsáveis e acompanhar seu ciclo de vida; líderes de equipe, que criam processos e designam etapas para colaboradores ou outros líderes; executivos C-level, que monitoram as atividades através de dashboards; e administradores, que possuem acesso completo para gerenciamento de usuários e recursos.
+
+A solução é acessível via navegadores modernos como Google Chrome, Internet Explorer e Firefox, utilizando banco de dados em nuvem para garantir mobilidade e atualização em tempo real.
+
+O projeto seguiu a metodologia ágil SCRUM, fomentando competências como proatividade, autonomia, colaboração e entrega de resultados entre os estudantes envolvidos.
+
+</br> 
+<details> 
+<summary> 
+<strong>Empresa Parceira: Ionic Health</strong> 
+</summary> 
+</br>
+  
+A Ionic Health atuou como empresa parceira deste projeto, apresentando o desafio real de organização e documentação dos processos internos na área de tecnologia em saúde. A parceria permitiu alinhar o desenvolvimento da plataforma Proton às necessidades específicas da empresa, garantindo que a solução atendesse a requisitos práticos do dia a dia, otimizando a comunicação e o controle dos processos internos.
+
+[Ionic Health](https://www.ionic.health/)
+
+</details> 
+
+</br> 
+<details> 
+<summary> 
+<strong>Problema Identificado</strong> 
+</summary> 
+</br>
+A Ionic Health enfrentava dificuldades na gestão e documentação dos processos realizados dentro da empresa, especialmente na coordenação de tarefas entre diferentes níveis hierárquicos. A falta de uma ferramenta unificada tornava complexo o acompanhamento do ciclo de vida das atividades, resultando em falhas de comunicação, perda de evidências e baixa eficiência na entrega de resultados. Havia necessidade de uma solução integrada que permitisse organização clara, designação de responsabilidades, acompanhamento em tempo real e geração de indicadores para suporte à tomada de decisão.
+
+</details> 
+
+</br> 
+<details> 
+<summary> 
+<strong>Solução Entregue</strong> 
+</summary> 
+</br>
+Foi desenvolvida uma plataforma web chamada Proton, que permite aos usuários atuar em diferentes frentes conforme seu perfil. Colaboradores podem registrar pendências e anexar evidências; líderes criam processos e designam etapas; executivos acompanham o andamento via dashboards; e administradores controlam o sistema e os usuários. A aplicação é responsiva e compatível com diversos navegadores, utilizando banco de dados em nuvem para garantir acesso remoto e sincronização de dados. O Proton facilitou a organização dos processos internos, aumentando a transparência, o controle e a eficiência na empresa.
+
+</details> 
+</details>
+
+---
+
+</br>
+<details> 
+<summary> 
+<strong>Tecnologias Utilizadas</strong> 
+</summary> 
+  
+- **HTML**: Estrutura das páginas web, fornecendo a base para o conteúdo apresentado ao usuário.
+
+- **CSS**: Responsável pela estilização visual das páginas, garantindo uma interface atraente e responsiva.
+
+- **React e Typescript**: Utilizados para manipulação dinâmica dos inputs e construção de componentes interativos no frontend.
+
+- **Python/Flask**: Backend do produto, responsável pelo processamento de dados, lógica de negócio e comunicação com o banco de dados.
+
+- **Bootstrap**: Framework de estilização que agilizou a criação de layouts responsivos e consistentes.
+
+- **Figma**: Ferramenta para prototipagem da interface, facilitando o planejamento visual e a validação do design.
+
+- **GitHub**: Plataforma para controle de versionamento, documentação do código e colaboração entre a equipe.
+
+- **MySQL**: Banco de dados relacional utilizado para armazenar e gerenciar todas as informações do sistema.
+
+</details>
+
+</br> 
+
+<details> <summary> <strong>Contribuições Pessoais</strong> </summary> 
+</br>
+  
+Durante o desenvolvimento do PROTON, atuei principalmente na implementação e aprimoramento do sistema de anexos para upload e gerenciamento de arquivos, além de melhorias na interface e navegação.
+
+<details> <summary> <strong>Implementação da Página de Anexos</strong> </summary>
+Desenvolvi a página de anexos com suporte para múltiplos uploads de arquivos utilizando React, Formik e Material-UI. Implementei validação de arquivos com o Yup, visualização da lista de arquivos, exclusão e controle do progresso do upload.
+
+</details> </br> <details> <summary> <strong>Lógica de Upload com Progresso e Erros</strong> </summary>
+Criei componentes para exibir o progresso do upload individual e tratamento de erros, incluindo feedback visual para arquivos inválidos e limite de tamanho configurado.
+
+</details> </br> <details> <summary> <strong>Extensão e Validação de Tipos de Arquivo Permitidos</strong> </summary>
+Adicionei a lógica para aceitar múltiplas extensões específicas (PDF, DOC, DOCX, XLSX, JPEG, PNG, entre outras) e limite de tamanho maior (até 10MB), melhorando a usabilidade e segurança no upload.
+
+</details> </br> <details> <summary> <strong>Ícone de Logout e Navegação</strong> </summary>
+Implementei botão de logout com ícone no menu superior para melhorar a usabilidade e fluxo do sistema.
+
+</details>
+</details>
+</br> 
+
+<details> <summary> <strong>Hard Skills</strong> </summary> </br>
+Durante o projeto PROTON, desenvolvi as seguintes competências técnicas:
+
+</br> <details> <summary> <strong>React e Formik</strong> </summary>
+Desenvolvi formulários complexos com validação integrada usando Formik e Yup, além de gerenciar estados de upload e interação do usuário em React.
+
+</details> </br> <details> <summary> <strong>TypeScript</strong> </summary>
+Utilizei tipagem estática para garantir robustez e clareza no código, especialmente no tratamento de arquivos e estados no componente de múltiplos uploads.
+
+</details> </br> <details> <summary> <strong>Material-UI</strong> </summary>
+Implementei componentes visuais responsivos e estilizados, integrando ícones e layouts usando Material-UI para garantir uma boa experiência de usuário.
+
+</details> </br> <details> <summary> <strong>API de Upload com Progresso</strong> </summary>
+Implementei upload de arquivos via XMLHttpRequest com controle do progresso, tratamento de sucesso e falha, e integração com o frontend.
+
+</details>
+</details>
+</br> 
+
+<details> <summary> <strong>Soft Skills</strong> </summary>
+
+- **Comunicação:** Troca contínua de informações para alinhamento do fluxo de upload e feedback de erros, além de integração com times frontend e backend.
+
+- **Resiliência:** Tratamento de erros no upload e feedback visual claro para o usuário.
+
+- **Organização:** Estruturação do código em componentes reutilizáveis e modulares para facilitar manutenção.
+
+- **Colaboração:** Desenvolvimento alinhado com padrões da equipe, integrando componentes no menu superior e navegação do sistema.
+
+</details>
+
+
+
+
+## Em 2024-1
 ![domRockImg](https://github.com/user-attachments/assets/b586aa77-0630-4e02-a2fa-4c1ee8281247)
 
 <details>
 <summary>
-<strong>DOM ROCK PIPELINE CONFIGURATOR</strong>
+<strong>DOM ROCK Pipeline Configurator</strong>
 </summary>
 
 A solução desenvolvida é uma plataforma web voltada para a gestão e configuração automatizada das fontes de dados, abordando a necessidade de simplificar e agilizar o processo de implantação para os clientes da Dom Rock. A plataforma permite aos usuários importar arquivos CSV ou Excel, ajustar tipos de dados, configurar mapeamentos e aplicar regras de transformação, como "de para", tudo por meio de uma interface intuitiva. Além disso, o sistema oferece controle de permissões e um painel administrativo com dashboards interativos e logs de rastreabilidade, garantindo agilidade, segurança e maior autonomia na configuração e gerenciamento dos dados, desde a importação até a transformação, com menor dependência de técnicos especialistas.
@@ -547,9 +677,121 @@ Em resumo, o projeto proporcionou uma oportunidade significativa para aplicar e 
 - **Proatividade**: Para me integrar de forma eficaz ao time, precisei ser proativa ao assumir responsabilidades e tomar a iniciativa, seja ao sugerir melhorias nos processos ou ao antecipar possíveis problemas. Essa atitude não só acelerou meu processo de adaptação, como também mostrou meu comprometimento com o sucesso do time e com a entrega de resultados. Ao agir de forma proativa, contribuo para um ambiente de trabalho mais dinâmico e com menos necessidade de supervisão constante.
 </details>
 
-### Em 2022-1
+### Em 2024-2
+![GeoTrack](https://github.com/user-attachments/assets/4213032d-5f60-4a3a-9792-ccd9917d22c1)
 
-Mesmo formato
+<details>
+<summary>
+<strong>GeoTrack - Plataforma de Gerenciamento de Geolocalização IoT</strong>
+</summary>
+
+GeoTrack é uma plataforma web inovadora projetada para simplificar e automatizar o gerenciamento de dados de geolocalização em tempo real provenientes de dispositivos IoT, como wearables, tags e smartphones. Desenvolvido para escalabilidade e segurança, o sistema permite que usuários autorizados configurem, monitorem e analisem fluxos de geodados de forma intuitiva, sem necessidade de conhecimentos técnicos avançados. A solução agiliza a implantação das operações, assegurando a integridade, consistência e segurança das informações, além de reduzir a dependência de técnicos especializados, tornando o monitoramento e rastreamento de pessoas e ativos mais eficiente e confiável.
+
+[GIT](https://github.com/iNineBD/GeoTrack-4Sem2024Main/tree/main)
+
+</br>
+
+<details>
+<summary>
+<strong>Empresa Parceira: ITO1</strong>
+</summary>
+
+</br>
+
+A ITO1 é uma empresa especializada em soluções tecnológicas para Internet das Coisas (IoT), focada na inovação e automação de processos para monitoramento e gestão de dados em tempo real. Com ampla experiência no mercado, a ITO1 atua como parceira estratégica, contribuindo com know-how técnico e visão estratégica para o desenvolvimento do GeoTrack, garantindo a entrega de uma solução robusta e alinhada às necessidades dos clientes.
+
+[ITO1](https://www.ito1.com.br/)
+
+</details>
+
+</br>
+
+<details>
+<summary>
+<strong>Problema Identificado</strong>
+</summary>
+
+</br>
+
+A empresa enfrenta o desafio de gerir e consultar grandes volumes de dados de geolocalização gerados continuamente por dispositivos IoT. Atualmente, a configuração desses dados para monitoramento é feita de forma manual, processo que consome tempo e exige alta especialização técnica. Há necessidade de um sistema que permita automatizar a configuração e gerenciamento dos dados para aumentar a agilidade operacional e garantir a confiabilidade das informações, reduzindo a dependência de técnicos especialistas.
+
+</details>
+
+</br>
+
+<details>
+<summary>
+<strong>Solução Entregue</strong>
+</summary>
+
+</br>
+
+O GeoTrack oferece uma plataforma web que possibilita interação com mapas por meio de funções de arrastar e zoom, facilitando a navegação na área de interesse. Usuários podem filtrar resultados por pessoa via lista suspensa para visualizar dispositivos associados, além de aplicar filtros temporais por período usando calendário para consultas específicas. O sistema também permite buscas rápidas utilizando tags pré-definidas, como "Hoje", "Últimos 3 dias", "Esta semana" e "Último mês". No mapa, são exibidos pontos de localização através de marcadores visuais que indicam paradas em rotas, possibilitando a visualização completa das rotas de pessoas ou objetos conforme os filtros aplicados. Ainda, o usuário pode criar, visualizar e excluir seções geográficas utilizando formas geométricas para definir regiões personalizadas de busca. Relatórios detalhados são apresentados em pop-ups com informações complementares sobre os dados mapeados. O acesso ao sistema ocorre mediante autenticação segura por login e validação de credenciais, garantindo que apenas usuários autorizados acessem a plataforma. Por fim, a solução conta com uma infraestrutura robusta, escalável e altamente disponível, apta a processar grandes volumes de dados IoT com alta performance e confiabilidade.
+
+</details>
+
+</details>
+
+---
+
+</br>
+
+<details>
+<summary>
+<strong>Tecnologias Utilizadas</strong>
+</summary>
+
+</br>
+
+- **Java JDK 21.0.2**: utilizada como linguagem principal para o desenvolvimento do backend, proporcionando robustez, escalabilidade e integração com frameworks modernos.
+ 
+- **Spring Boot 3.3.2**: framework que facilitou a criação de serviços REST e a estruturação da aplicação backend com segurança, injeção de dependência e gestão de transações.
+
+- **Oracle Database**: sistema gerenciador de banco de dados relacional responsável pelo armazenamento e consulta eficiente dos dados de geolocalização.
+
+- **Vue.js 2.6.12**: framework JavaScript utilizado no frontend para criação de interfaces interativas e responsivas, garantindo uma experiência fluida para o usuário.
+
+- **Vuetify**: biblioteca de componentes para Vue.js que agilizou o desenvolvimento da interface, com elementos visuais modernos e consistentes.
+
+- **JavaScript**: linguagem utilizada para lógica e manipulação dinâmica do frontend, garantindo interatividade e responsividade.
+
+- **YouTrack**: ferramenta adotada para o gerenciamento de tarefas, acompanhamento do progresso e organização do projeto.
+
+- **Figma**: utilizada para o design e prototipagem das telas, permitindo a visualização e ajustes colaborativos do layout.
+
+- **IntelliJ IDEA**: ambiente de desenvolvimento integrado (IDE) utilizado para programação backend, oferecendo recursos avançados para codificação e depuração.
+
+- **Visual Studio Code**: editor leve utilizado para desenvolvimento frontend, com suporte a extensões que facilitam a criação do código Vue.js e JavaScript.
+
+- **Postman**: ferramenta usada para criação, teste e documentação das APIs REST que conectam o frontend ao backend.
+
+</details>
+
+<details> <summary> <strong>Contribuições Pessoais</strong> </summary>
+Durante o desenvolvimento do GeoTrack, atuei principalmente na criação e refatoração de componentes de filtro e métricas, além de melhorias na navegação e usabilidade da interface.
+
+<details> <summary> <strong>Criação do Componente MetricsCard</strong> </summary> Desenvolvi o componente MetricsCard para exibir métricas do sistema, como número de usuários e áreas geográficas. O componente consome dados da API, utiliza Vue Composition API e atualiza os valores em tempo real. </details> </br> <details> <summary> <strong>Integração do MetricsCard na Sidebar</strong> </summary> Integrei o MetricsCard à Sidebar com uso de v-expansion-panels do Vuetify, permitindo ao usuário acessar filtros e métricas em uma interface clara e intuitiva, com navegação direta para diferentes funcionalidades. </details> </br> <details> <summary> <strong>Refatoração dos Componentes de Filtro</strong> </summary> Melhorei a legibilidade e manutenção dos componentes GeographicAreasFilter e StopPointsFilter, reestruturando o markup, padronizando chamadas de API e organizando melhor as propriedades dos componentes Vuetify. </details> </br> <details> <summary> <strong>Adição do Botão de Ajuda "Dúvidas?"</strong> </summary> Implementei o botão de ajuda com ícone de interrogação (mdi-help-circle) nos painéis de filtro, através do componente InfoPanel.vue, oferecendo ponto de acesso para futuras orientações ou tooltips de uso. </details> </details> 
+
+<details> <summary> <strong>Hard Skills</strong> </summary>
+  
+Durante o projeto GeoTrack, desenvolvi as seguintes competências técnicas:
+
+<details> <summary> <strong>Vue 3 com Composition API</strong> </summary>
+Utilizei Vue 3 com Composition API para controle de estado, reatividade e ciclo de vida em componentes como MetricsCard e filtros de busca.
+
+</details> </br> <details> <summary> <strong>Vuetify</strong> </summary> Implementei layouts responsivos e componentes estilizados com Vuetify (v-combobox, v-btn, v-date-input, v-chip), garantindo boa usabilidade e consistência visual. </details> </br> <details> <summary> <strong>Integração com API via Axios</strong> </summary> Realizei chamadas assíncronas para recuperar dados de usuários e áreas geográficas, tratando erros e estruturando os dados recebidos no formato adequado para os componentes. </details> </br> <details> <summary> <strong>Vue Router e Navegação Condicional</strong> </summary> Implementei lógica de navegação condicional entre filtros e páginas, com uso de Vue Router e controle dinâmico de expansão de painéis de filtro com base na rota atual. </details> </details> <details> 
+  
+<summary> <strong>Soft Skills</strong> </summary>
+
+- **Comunicação**: Interação constante com o time para alinhar as melhorias visuais e técnicas nos componentes de filtro e layout da Sidebar.
+
+- **Resiliência**: Adaptação a mudanças de escopo e ajustes em tempo real durante integração com outros módulos.
+
+- **Organização**: Refatoração de código em componentes coesos e reaproveitáveis, melhorando legibilidade e manutenção futura.
+
+- **Colaboração**: Alinhamento com boas práticas de equipe e integração de novos componentes com as funcionalidades existentes no sistema.
+
+</details>
 
 ### Em 2022-2
 
