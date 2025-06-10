@@ -254,7 +254,10 @@ A solução desenvolvida é uma aplicação desktop desenvolvida em Java que per
 
 </br> 
 
-<details> <summary> <strong>Contribuições Pessoais</strong> </summary> </br>
+<details> <summary> <strong>Contribuições Pessoais</strong> </summary> 
+
+</br>
+
 Durante o desenvolvimento do projeto PARE, atuei em frentes técnicas e de usabilidade, contribuindo diretamente para a navegação do sistema e automação de processos pedagógicos. A seguir, listo algumas das minhas entregas mais relevantes:
 
 <details> <summary> <strong>Botão “Página Inicial” com Navegação Funcional</strong> </summary>
@@ -269,7 +272,13 @@ Implementei a lógica de atribuição de uma nova avaliação a todos os alunos 
 </details> </br> <details> <summary> <strong>Cálculo de rendimento e média por avaliação</strong> </summary>
 Implementei funcionalidades para calcular e exibir, em tempo real, a média da turma, número de aprovados e rendimento geral por avaliação, facilitando a análise de desempenho diretamente na interface.
 
-</details> </details>
+</details> 
+
+</br>
+
+Essas entregas evidenciam meu foco em melhorar a experiência do usuário, automatizar processos repetitivos e tornar a navegação do sistema mais fluida. Combinando Java e Java Swing, contribui para uma interface pedagógica mais funcional, reduzindo esforços manuais dos professores e ampliando a eficiência na gestão de avaliações e desempenho dos alunos.
+
+</details>
 </br> <details> <summary> <strong>Hard Skills</strong> </summary> </br>
 Durante o projeto, desenvolvi competências técnicas tanto no desenvolvimento da interface quanto na camada de negócio da aplicação.
 
@@ -392,6 +401,11 @@ Adicionei a lógica para aceitar múltiplas extensões específicas (PDF, DOC, D
 Implementei botão de logout com ícone no menu superior para melhorar a usabilidade e fluxo do sistema.
 
 </details>
+
+</br>
+
+Essas entregas evidenciam meu cuidado com a experiência do usuário, clareza no fluxo de navegação e atenção a boas práticas de validação e feedback visual. Utilizando React, Formik, Material-UI e bibliotecas auxiliares como Yup, contribuí para tornar o sistema de anexos do PROTON mais robusto, acessível e eficiente para os diferentes perfis de usuários da plataforma.
+
 </details>
 </br> 
 
@@ -797,7 +811,15 @@ Integrei o MetricsCard à Sidebar com uso de v-expansion-panels do Vuetify, perm
 <details> 
 <summary> 
 <strong>Adição do Botão de Ajuda "Dúvidas?"</strong> 
-</summary> Implementei o botão de ajuda com ícone de interrogação (mdi-help-circle) nos painéis de filtro, através do componente InfoPanel.vue, oferecendo ponto de acesso para futuras orientações ou tooltips de uso. </details> </details> 
+</summary> Implementei o botão de ajuda com ícone de interrogação (mdi-help-circle) nos painéis de filtro, através do componente InfoPanel.vue, oferecendo ponto de acesso para futuras orientações ou tooltips de uso.
+</details> 
+
+</br>
+
+Essas entregas evidenciam minha atenção à usabilidade, organização visual e clareza na estruturação dos componentes. Utilizando Vue 3, Vuetify e Composition API, contribuí para tornar a interface do GeoTrack mais intuitiva, acessível e alinhada com as necessidades dos usuários que operam dados geográficos e pontos de parada.
+
+
+</details> 
 
 </br>
 
@@ -851,3 +873,138 @@ Utilizei Vue 3 com Composition API para controle de estado, reatividade e ciclo 
 
 ## Em 2025-1
 ![trackImg](https://github.com/user-attachments/assets/a2af3a6f-d282-48cd-8643-1329d51319a9)
+
+<details>  
+<summary>  
+<strong>Track – Plataforma de Monitoramento de Performance em Projetos</strong>  
+</summary>  
+
+O Track é uma plataforma web desenvolvida para proporcionar visibilidade e insights dinâmicos sobre indicadores de desempenho em projetos, com integração aos sistemas Taiga e Jira. A solução foi concebida para atender às necessidades da empresa Youtan, especializada em desenvolvimento de softwares personalizados, enfrentando dificuldades na visualização centralizada de métricas essenciais para a tomada de decisões estratégicas.
+
+A plataforma oferece três perfis principais de acesso:
+
+* **Operadores**, que acompanham métricas relacionadas às tarefas sob sua responsabilidade;
+* **Gestores**, com visão das métricas de suas equipes;
+* **Administradores**, com acesso completo a todos os indicadores organizacionais.
+
+Com dashboards interativos e intuitivos, o Track promove uma gestão baseada em dados, elevando a eficiência, a transparência e a agilidade nos processos de monitoramento de projetos.
+
+[GIT](https://github.com/iNineBD/Track-5Sem2025Main)
+
+</br>  
+<details>  
+<summary>  
+<strong>Empresa Parceira: Youtan</strong>  
+</summary>  
+</br>  
+
+A Youtan foi a empresa parceira deste projeto, fornecendo um desafio real relacionado à gestão e visualização de indicadores em ambientes ágeis de desenvolvimento. Ao adotar ferramentas como Taiga e Jira, a Youtan buscava uma solução capaz de unificar dados e oferecer diferentes níveis de acesso de acordo com os perfis dos colaboradores, melhorando o acompanhamento e a performance dos projetos em andamento.
+
+[Youtan](https://youtan.com.br/)
+
+</details>  
+
+</br>  
+<details>  
+<summary>  
+<strong>Problema Identificado</strong>  
+</summary>  
+</br>  
+A Youtan enfrentava dificuldades em acompanhar com clareza os principais indicadores de desempenho dos projetos, como tempo médio de execução, volume de tarefas em períodos específicos e distribuição de tarefas por colaborador. Além disso, as limitações do Taiga em oferecer níveis de acesso diferenciados dificultavam a visualização personalizada para cada perfil, impactando a tomada de decisões estratégicas e a eficiência da gestão. Havia a necessidade de uma plataforma que consolidasse dados e apresentasse os indicadores de forma clara, interativa e acessível conforme a função do usuário.  
+
+</details>  
+
+</br>  
+<details>  
+<summary>  
+<strong>Solução Entregue</strong>  
+</summary>  
+</br>  
+A equipe desenvolveu o Track, uma plataforma integrada aos bancos de dados do Taiga e Jira, capaz de coletar e exibir indicadores relevantes por meio de dashboards customizados. A aplicação permite:
+
+- Operadores visualizarem tarefas sob sua responsabilidade;  
+- Gestores acompanharem métricas de suas equipes;  
+- Administradores acessarem uma visão geral da organização.  
+
+Com visualizações claras e responsivas, a plataforma facilita o monitoramento do progresso dos projetos, melhorando a eficiência da gestão e promovendo decisões baseadas em dados.
+
+</details>  
+</details>  
+
+---
+
+</br>  
+<details>  
+<summary>  
+<strong>Tecnologias Utilizadas</strong>  
+</summary>  
+
+* **Python**: Utilizado no backend para processamento de dados e integração com APIs externas (Taiga e Jira).
+* **Go**: Suporte em serviços auxiliares para manipulação de dados e automações.
+* **Nuxt**: Framework do frontend baseado em Vue.js, responsável por construir interfaces reativas e amigáveis.
+* **VS Code e PyCharm**: IDEs utilizadas no desenvolvimento das interfaces e lógica de backend.
+* **Git e GitHub**: Controle de versão, colaboração em equipe e gestão de repositórios.
+* **GitHub Actions**: Automação de deploys e execução de testes.
+* **Docker**: Contêineres para padronizar ambientes de desenvolvimento e produção.
+* **PostgreSQL**: Banco de dados relacional para armazenamento seguro e estruturado das informações.
+* **Digital Ocean**: Infraestrutura de hospedagem da aplicação.
+* **Jira**: Ferramenta integrada como fonte de dados para indicadores de projetos.
+* **SonarQube**: Monitoramento da qualidade do código-fonte.
+* **Figma**: Ferramenta de prototipação e validação visual das interfaces.
+* **Postman**: Testes e documentação de APIs durante o desenvolvimento.
+* **Slack**: Comunicação e alinhamento contínuo entre os membros da equipe.
+
+</details>
+
+</br>
+
+<details> <summary> <strong>Contribuições Pessoais</strong> </summary>
+Durante o desenvolvimento do Track, atuei na implementação e refatoração de componentes de visualização de dados, autenticação e testes automatizados. As entregas incluíram criação de gráficos interativos, melhoria da navegação e cobertura de testes para páginas de estatísticas.
+
+<details> <summary> <strong>Criação do Componente PieChart</strong> </summary>
+Implementei o componente PieChart.vue utilizando ECharts com suporte à troca de tema dinâmico via Composition API. O gráfico exibe métricas em formato de pizza (donut chart) com animações, responsividade e adaptação ao modo escuro/claro.
+
+</details> </br> <details> <summary> <strong>Testes Automatizados com Vitest</strong> </summary>
+Implementei testes com Vitest para a página de estatísticas do projeto (project/[id].vue), garantindo que o conteúdo fosse renderizado corretamente e simulando rotas e componentes de gráfico via mock.
+
+</details> </br> <details> <summary> <strong>Atualização do Composable de Autenticação</strong> </summary>
+Desenvolvi o composable useAuth.ts, responsável por autenticação JWT, persistência de dados do usuário no localStorage e integração com endpoints de login, autenticação e definição de senha.
+</details>
+
+</br>
+
+Essas entregas evidenciam minha atenção à clareza de código, responsividade e boas práticas de componentização com Vue 3 e TypeScript. Utilizando bibliotecas modernas como ECharts e ferramentas como Vitest, contribuí para tornar a visualização de dados na plataforma Track mais intuitiva, informativa e alinhada com as necessidades dos diferentes perfis de usuário.
+</details> 
+
+</br>
+
+<details> 
+<summary> 
+<strong>Hard Skills</strong> </summary> 
+<details> 
+
+<summary> 
+<strong>Vue 3 + TypeScript (Composition API)</strong> 
+</summary>
+Utilizei Vue 3 com TypeScript e Composition API para construir componentes reativos, escaláveis e compatíveis com temas dinâmicos, como no PieChart.vue.
+
+</details> </br> <details> <summary> <strong>ECharts</strong> </summary>
+Configurei e personalizei gráficos com ECharts para representar dados analíticos de forma visual e interativa, incluindo tooltip, legenda e animações.
+
+</details> </br> <details> <summary> <strong>Vitest e Testes Automatizados</strong> </summary>
+Implementei testes unitários e de renderização para páginas Vue usando Vitest, com suporte à simulação de rotas e mocks de componentes.
+
+</details> </br> <details> <summary> <strong>Autenticação com JWT</strong> </summary>
+Desenvolvi lógica de autenticação com JWT, incluindo armazenamento seguro de tokens e dados do usuário, comunicação com APIs via $fetch e tratamento de erros.
+
+</details> </details> </br> <details> <summary> <strong>Soft Skills</strong> </summary>
+
+- **Responsabilidade Técnica**: Desenvolvimento completo de funcionalidades críticas, como gráficos e autenticação.
+
+- **Capacidade Analítica**: Estruturei dados e adaptei componentes visuais para refletirem diferentes cenários de uso em tempo real.
+
+- **Trabalho em Equipe**: Colaborei na integração dos gráficos com outras páginas do sistema e compartilhei boas práticas em testes e uso de composables.
+
+- **Adaptabilidade**: Conduzi ajustes rápidos nos componentes com base em mudanças de escopo ou requisitos de usabilidade.
+
+</details>
