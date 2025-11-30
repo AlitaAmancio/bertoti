@@ -1006,7 +1006,8 @@ Desenvolvi lógica de autenticação com JWT, incluindo armazenamento seguro de 
 </details>
 
 ## Em 2025-2
-![projectImg](https://github.com/user-attachments/assets/placeholder)
+![VisionData](https://github.com/user-attachments/assets/b43ac4a3-0023-47d5-897f-89d561a3c0dc)
+
 
 <details>
 <summary>
