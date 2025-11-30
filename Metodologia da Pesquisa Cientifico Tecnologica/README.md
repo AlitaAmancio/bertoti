@@ -8,7 +8,7 @@
     <td style="border:none; padding-left: 25px; vertical-align: top;">
       <h3><span style="color:#FE8DB9;">Olá! Um pouco sobre mim:</span></h3>
       <p>Sou uma mulher negra, trans e brasileira, nascida em São José dos Campos, São Paulo. Desde criança, sempre fui apaixonada por tecnologia, jogos e resolver desafios. O que antes era um passatempo virou profissão: hoje curso Tecnologia em Banco de Dados na FATEC São José dos Campos e atuo como estagiária em desenvolvimento de software na Accenture.</p>
-      <p>Minha trajetória na tecnologia começou com o bootcamp da {reprograma}, um curso feito por mulheres e para mulheres, que me fez enxergar que existia, sim, espaço para alguém como eu nessa área. Foi ali que me vi como programadora pela primeira vez e entendi que meu corpo e minha história também cabem no mundo da tecnologia.</p>
+      <p>Minha trajetória na tecnologia começou com o bootcamp da {reprograma}, um curso feito por mulheres e para mulheres, que me proprocionou uma rede de apoio essêncial e me fez enxergar que existe espaço para pessoas como eu neste setor. Ali me enxerguei como programadora pela primeira vez e entendi que quem eu sou e minha trajetória também cabem no mundo da tecnologia.</p>
       <p>Antes disso, explorei outras áreas. Estudei teatro na UFSJ, o que me trouxe sensibilidade, escuta e criatividade. Também passei pela gestão de recursos humanos, onde aprendi sobre pessoas, processos e empatia. Essas vivências continuam comigo até hoje, e me ajudam muito quando estou colaborando em equipe, lidando com problemas complexos ou pensando em soluções mais humanas.</p>
       <p>Sou curiosa, inquieta e apaixonada por tudo que envolve originalidade. Estou sempre buscando aprender mais e contribuir com projetos que unam tecnologia, diversidade e impacto social. Resolver problemas é algo que me motiva, e poder fazer isso todos os dias, com propósito, é o que me move.</p>
     </td>
@@ -971,12 +971,8 @@ Implementei testes com Vitest para a página de estatísticas do projeto (projec
 Desenvolvi o composable useAuth.ts, responsável por autenticação JWT, persistência de dados do usuário no localStorage e integração com endpoints de login, autenticação e definição de senha.
 </details>
 
-</br>
-
 Essas entregas evidenciam minha atenção à clareza de código, responsividade e boas práticas de componentização com Vue 3 e TypeScript. Utilizando bibliotecas modernas como ECharts e ferramentas como Vitest, contribuí para tornar a visualização de dados na plataforma Track mais intuitiva, informativa e alinhada com as necessidades dos diferentes perfis de usuário.
 </details> 
-
-</br>
 
 <details> 
 <summary> 
@@ -1007,4 +1003,137 @@ Desenvolvi lógica de autenticação com JWT, incluindo armazenamento seguro de 
 
 - **Adaptabilidade**: Conduzi ajustes rápidos nos componentes com base em mudanças de escopo ou requisitos de usabilidade.
 
+</details>
+
+## Em 2025-2
+![projectImg](https://github.com/user-attachments/assets/placeholder)
+
+<details>
+<summary>
+  <strong>
+    VisionData — Metrics, Insights & IA Generated Predictions
+  </strong>
+</summary>
+
+O VisionData tem como objetivo transformar um grande volume de dados históricos de tickets de suporte da Pro4tech em um ativo estratégico. Atualmente desorganizadas, essas informações não são aproveitadas no dia a dia da operação. O VisionData um sistema inteligente capaz de estruturar, analisar e disponibilizar esse conhecimento de forma acessível, eficiente e segura. A iniciativa une organização da informação, inteligência de dados e conformidade com a LGPD, permitindo tanto o ganho operacional quanto o suporte à tomada de decisão gerencial.
+
+[GIT](https://github.com/iNineBD/VisionData-6Sem2025Main)
+</br>  
+<details>  
+<summary>  
+<strong>Empresa Parceira: Pro4Tech</strong>  
+</summary>  
+</br>  
+
+A Pro4Tech foi a empresa parceira deste projeto, fornecendo um desafio relacionado à organização, análise e visualização de informações vindas de tickets de suporte. Com um grande volume de dados históricos desestruturados, a empresa buscava uma solução que unificasse essas informações, facilitasse a consulta por parte dos colaboradores e oferecesse diferentes níveis de acesso conforme o perfil de cada usuário. O objetivo era melhorar a eficiência operacional, apoiar a gestão com métricas estratégicas e garantir conformidade com a LGPD no tratamento desses dados.
+
+[Pro4Tech](https://pro4tech.com.br/)
+
+</details>  
+
+</br>  
+<details>  
+<summary>  
+<strong>Problema Identificado</strong>  
+</summary>  
+</br>  
+A Pro4tech possui um vasto acervo de tickets antigos que, devido à falta de estrutura, permanece subutilizado. Esse cenário gera um ciclo de ineficiência: a equipe perde tempo buscando soluções para problemas já resolvidos e a empresa deixa de usufruir de insights valiosos presentes nesse histórico. A ausência de organização impede uma visão estratégica, limita a capacidade de antecipar demandas e dificulta o cumprimento de requisitos legais relacionados à segurança e ao tratamento dos dados pessoais.  
+
+</details>  
+
+</br>  
+<details>  
+<summary>  
+<strong>Solução Entregue</strong>  
+</summary>  
+</br>  
+A solução proposta consistiu em construir um sistema inteligente capaz de transformar dados brutos e desestruturados em uma base de conhecimento organizada, pesquisável e rica em insights. A ferramenta permitirá que os colaboradores encontrem rapidamente casos semelhantes já resolvidos, otimizando o tempo de atendimento. Além disso, dashboards e mecanismos de previsão fornecerão métricas estratégicas para identificar tendências e apoiar decisões. O sistema também contemplará funcionalidades alinhadas à LGPD, como logs de atividade, backups periódicos, gestão de consentimento, anonimização e controle de acesso, garantindo segurança, rastreabilidade e conformidade.
+
+</details>  
+</details>
+
+---
+
+</br>
+
+<details>
+<summary>
+<strong>
+Tecnologias Utilizadas
+</strong>
+</summary>
+
+</br>
+
+- **Elasticsearch**: Atuou como o motor de busca da solução, permitindo consultas rápidas e eficientes na base de conhecimento formada pelos tickets tratados. Em conjunto com o Kibana, também apoiou a parte de observabilidade e visualização dos dados indexados.
+- **Go**: Serviu como a linguagem principal do back-end, responsável por orquestrar o fluxo de ETL (extração, transformação e carga) e garantir o processamento estruturado e performático dos dados.
+- **Jira**: Funcionou como a fonte primária de informações, de onde os tickets antigos foram coletados e preparados para compor a nova base centralizada.
+- **Oracle**: Banco de dados utilizado para armazenar de forma segura e organizada todos os registros tratados, garantindo persistência e integridade das informações.
+- **Visual Studio Code**: Editor de código escolhido para o desenvolvimento da solução, oferecendo suporte às linguagens e ferramentas adotadas no projeto.
+- **Vue.js / Nuxt.js**: Frameworks empregados na construção da interface web, possibilitando que os usuários consultassem tickets, acessassem métricas e navegassem pelo sistema de maneira ágil e intuitiva.
+- **Python**: Utilizado na criação de scripts essenciais para o processo de ETL, realizando a limpeza, padronização e preparação dos dados brutos provenientes dos tickets.
+</details>
+
+</br>
+
+<details>
+<summary>
+<strong>
+Contribuições Pessoais
+</strong>
+</summary>
+
+Durante o desenvolvimento do VisionData, atuei na implementação e refatoração de componentes de visualização de dados, como métricas temporais e predições. As entregas incluíram criação de gráficos interativos e melhoria da navegação buscando um design clean, intuitivo e que atendesse às necessidades específicas do cliente.
+
+<details> <summary> <strong>Update Charts Layout</strong> </summary>
+Ao longo do desenvolvimento do projeto os gráficos precisaram ser refatorados constantemente no intuito de atender as necessidades do cliente enquanto ainda mantendo um design clean e minimalista. Implementei updates ao longo de todas as sprints conforme necessário.
+
+</details> </br> <details> <summary> <strong>Implementing Predictions Charts</strong> </summary>
+Implementei o gráfico de predições, onde apresentamos os dados gerados pelos algoritimos de ML. Tive que criar o gráfico de maneira que pudessemos renderizar diferentes dados de maneira prática, podendo selecionar as métricas gerais, por companhia ou por produto. Em atualizações futuras implementei também um Range Date Picker, para que pudessemos "filtrar" os dados na tela, dando um "zoom" no período selecionado.
+
+</details> </br> <details> <summary> <strong>Implement 'tickets by month/year' charts</strong> </summary>
+Além das métricas quantitativas desenvolvi também os gráficos de métricas temporais, gráficos de linha que se comportavam de maneira diferente dos outros gráficos de linha que já tínhamos na aplicação. As métricas temporais foram uma das últimas adições à home, junto com o botão de Exportação de Métricas.
+</details>
+
+</br>
+Essas entregas evidenciam minha atenção à clareza de código, responsividade e boas práticas de componentização com Vue 3 e TypeScript. Utilizando bibliotecas modernas como VueCharts contribuí para tornar a visualização de dados na plataforma VisionData mais intuitiva, informativa e alinhada com as necessidades do cliente.
+</details>
+
+</br>
+</details>
+
+</br>
+
+<details> 
+<summary> 
+<strong>Hard Skills</strong> </summary> 
+<details> 
+
+<summary> 
+<strong>Nuxt.js / Vue.js (Composition API)</strong> 
+</summary>
+Utilizei Vue com TypeScript e Composition API para construir componentes reativos, escaláveis e compatíveis com temas dinâmicos.
+
+</details> </br> <details> <summary> <strong>VueCharts</strong> </summary>
+Configurei e personalizei gráficos com VueCharts para representar dados analíticos de forma visual (linhas, barras, donuts) e interativa, incluindo séries temporais e visualização de predições.
+
+</details> </br> <details> <summary> <strong>TypeScript</strong> </summary>
+Usei tipagem estática para aumentar robustez e manutenção do código frontend.
+
+</details> </details> </br> <details> <summary> <strong>Soft Skills</strong> </summary>
+
+  - **Adaptabilidade**: capacidade de ajustar prioridades e soluções conforme mudanças de escopo e requisitos.
+  - 
+  - **Trabalho em equipe**: colaboração efetiva com desenvolvedores backend, designers e stakeholders para entregar soluções integradas.
+  - 
+  - **Foco em UX/UI**: atenção à experiência do usuário, design clean e decisões orientadas à usabilidade nas interfaces de visualização de dados.
+  - 
+  - **Comunicação clara**: relato de progresso, alinhamento de requisitos e documentação para times e clientes.
+  - 
+  - **Organização e gestão de tempo**: planejamento em sprints, priorização de tarefas e entregas dentro de prazos.
+  - 
+  - **Proatividade e responsabilidade técnica**: iniciativa para refatorar componentes, corrigir bugs e assumir ownership das entregas.
+  - 
+  - **Pensamento analítico**: transformar dados em métricas acionáveis e visualizações que suportem decisões de negócio.
+</details>
 </details>
